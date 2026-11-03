@@ -1,0 +1,11 @@
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+workspace/
+agent/decision-room-out/
+.live/
+
+# Private: adapters and guides tied to licensed data sources stay on this machine
+engine/decision_room/adapters/
+docs/REAL-DATA.md

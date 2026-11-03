@@ -1,0 +1,25 @@
+firm,region,freight
+Atlas,South Asia,28.0
+Atlas,Latin America,30.0
+Atlas,Europe,14.0
+Atlas,East Asia,38.0
+Atlas,Africa,16.0
+Atlas,North America,26.0
+Boreal,South Asia,34.0
+Boreal,Latin America,32.0
+Boreal,Europe,18.0
+Boreal,East Asia,30.0
+Boreal,Africa,30.0
+Boreal,North America,12.0
+Cerro,South Asia,36.0
+Cerro,Latin America,12.0
+Cerro,Europe,32.0
+Cerro,East Asia,34.0
+Cerro,Africa,34.0
+Cerro,North America,22.0
+Dune,South Asia,18.0
+Dune,Latin America,40.0
+Dune,Europe,22.0
+Dune,East Asia,26.0
+Dune,Africa,22.0
+Dune,North America,38.0

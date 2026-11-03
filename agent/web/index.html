@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Decision Room</title>
+<style>
+:root{--bg:#f6f6f4;--panel:#fff;--ink:#17171a;--muted:#5f5f68;--faint:#9a9aa3;--line:#e3e3e0;--accent:#1d4ed8;
+--accent-soft:#e8eefc;--ok:#15803d;--warn:#b45309;--bad:#b91c1c;--run:#7c3aed;--shadow:0 1px 2px rgba(0,0,0,.05)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0d10;--panel:#16161a;--ink:#ededf0;--muted:#a3a3ad;
+--faint:#6b6b75;--line:#2a2a30;--accent:#7aa2ff;--accent-soft:#1b2440;--ok:#4ade80;--warn:#fbbf24;--bad:#f87171;--run:#c4b5fd;--shadow:none}}
+:root[data-theme="dark"]{--bg:#0d0d10;--panel:#16161a;--ink:#ededf0;--muted:#a3a3ad;--faint:#6b6b75;--line:#2a2a30;
+--accent:#7aa2ff;--accent-soft:#1b2440;--ok:#4ade80;--warn:#fbbf24;--bad:#f87171;--run:#c4b5fd;--shadow:none}
+*{box-sizing:border-box}html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:14.5px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+header{display:flex;align-items:center;gap:14px;padding:12px 20px;border-bottom:1px solid var(--line);background:var(--panel)}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.01em;font-size:16px}
+.logo svg{width:22px;height:22px}
+.badge{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 10px;white-space:nowrap}
+.badge.live{color:var(--ok);border-color:currentColor}
+.spacer{flex:1}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:transparent;color:var(--muted);padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
+.seg button.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+main{display:grid;grid-template-columns:minmax(0,1fr) 340px;height:calc(100% - 55px)}
+#chat{overflow-y:auto;padding:24px clamp(16px,4vw,48px) 140px}
+.turn{max-width:860px;margin:0 auto 18px}
+.you{display:flex;justify-content:flex-end}
+.you div{background:var(--accent);color:#fff;padding:8px 14px;border-radius:14px 14px 4px 14px;max-width:80%}
+.msg{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;box-shadow:var(--shadow);overflow-x:auto}
+.msg h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin:18px 0 8px}
+.msg h3:first-child{margin-top:0}
+.msg table{border-collapse:collapse;font-size:13px;margin:8px 0;font-variant-numeric:tabular-nums;width:100%}
+.msg th,.msg td{border-bottom:1px solid var(--line);padding:5px 9px;text-align:left}
+.msg th{color:var(--muted);font-weight:600}.msg td.r,.msg th.r{text-align:right}
+.msg code{background:var(--accent-soft);padding:1px 5px;border-radius:4px;font-size:12.5px}
+.msg pre{background:var(--bg);padding:10px;border-radius:8px;overflow-x:auto}
+.msg hr{border:0;border-top:1px solid var(--line);margin:14px 0}
+.msg p{margin:6px 0}.msg ul{margin:6px 0;padding-left:20px}
+.pass{color:var(--ok);font-weight:700}.warn{color:var(--warn);font-weight:700}.fail{color:var(--bad);font-weight:700}
+.tool{max-width:860px;margin:0 auto 8px;font-size:13px;color:var(--muted);display:flex;gap:8px;align-items:baseline}
+.tool .dot{width:8px;height:8px;border-radius:50%;background:var(--run);flex:none;transform:translateY(-1px)}
+.tool.done .dot{background:var(--ok)}.tool.failed .dot{background:var(--bad)}
+.tool .log{color:var(--faint)}
+#composer{position:fixed;left:0;right:340px;bottom:0;padding:14px clamp(16px,4vw,48px) 18px;background:linear-gradient(transparent,var(--bg) 30%)}
+.box{max-width:860px;margin:0 auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.chips button{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
+.chips button:hover{border-color:var(--accent);color:var(--accent)}
+form{display:flex;gap:8px}
+input[type=text]{flex:1;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:10px;padding:11px 14px;font:inherit}
+input[type=text]:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
+.btn{border:0;background:var(--accent);color:#fff;border-radius:10px;padding:0 18px;font:inherit;font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+aside{border-left:1px solid var(--line);background:var(--panel);overflow-y:auto;padding:18px}
+aside h2{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 10px}
+.agent{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px;transition:border-color .2s,background .2s}
+.agent .name{display:flex;justify-content:space-between;font-weight:600;font-size:13.5px}
+.agent .state{font-size:12px;color:var(--faint);font-weight:500}
+.agent .what{font-size:12.5px;color:var(--muted);margin-top:2px;min-height:18px}
+.agent.busy{border-color:var(--run);background:color-mix(in srgb,var(--run) 7%,transparent)}
+.agent.busy .state{color:var(--run)}.agent.ok .state{color:var(--ok)}.agent.bad .state{color:var(--bad)}
+.plan{margin:18px 0}.bar{height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+.plan .lbl{font-size:12.5px;color:var(--muted);margin-top:6px}
+.files a{display:block;font-size:13px;color:var(--accent);text-decoration:none;padding:3px 0}
+.rooms{margin-bottom:18px}.rooms .head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.rooms .head h2{margin:0}.rooms button.new{border:1px solid var(--line);background:transparent;color:var(--accent);
+border-radius:8px;padding:3px 10px;font:inherit;font-size:12.5px;cursor:pointer}
+.room{display:flex;align-items:center;gap:6px;padding:6px 8px;border-radius:8px;cursor:pointer;font-size:13px}
+.room:hover{background:var(--accent-soft)}.room.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.room .t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.room .d{font-size:11.5px;color:var(--faint)}
+.room .x{border:0;background:transparent;color:var(--faint);cursor:pointer;font-size:15px;padding:0 2px}
+.room .x:hover{color:var(--bad)}
+.chart{max-width:860px;margin:4px auto 14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px 10px}
+.chart svg{width:100%;height:auto;display:block}
+.banner{max-width:860px;margin:0 auto 14px;font-size:12.5px;color:var(--muted);text-align:center}
+:root{--dr-ink:var(--ink);--dr-muted:var(--muted);--dr-muted2:var(--faint);--dr-grid:var(--line);--dr-accent:var(--accent);--dr-neg:var(--bad)}
+.note{font-size:12px;color:var(--faint);margin-top:18px;line-height:1.5}
+.replaybar{max-width:860px;margin:0 auto 18px;border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:12px 16px;font-size:13.5px;color:var(--muted)}
+.replaybar b{color:var(--ink)}.replaybar a{color:var(--accent)}
+.chips button.played{border-color:var(--ok);color:var(--ok)}
+.chips button:disabled{opacity:.5;cursor:default}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);max-width:440px;padding:20px}
+dialog::backdrop{background:rgba(0,0,0,.35)}
+dialog .opts{display:flex;flex-direction:column;gap:8px;margin-top:14px}
+dialog .opts button{padding:9px}
+@media (max-width:900px){main{grid-template-columns:1fr}aside{display:none}#composer{right:0}}
+@media (max-width:600px){header{padding:10px 16px;gap:10px}.logo{white-space:nowrap;font-size:15px}
+#conn{min-width:0;overflow:hidden;text-overflow:ellipsis}.chips{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}
+.chips button{flex:none;white-space:nowrap}#chat{padding:16px 16px 150px}#composer{padding:10px 16px 14px}.msg{padding:12px 14px}}
+body{overflow-x:hidden}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 15l3-4 3 2 4-6"/></svg>Decision Room</div>
+  <span class="badge" id="conn">connecting…</span>
+  <div class="spacer"></div>
+  <div class="seg" id="modes"><button data-mode="advisor" class="on">Advisor</button><button data-mode="autopilot">Autopilot</button></div>
+</header>
+<main>
+  <section id="chat"></section>
+  <aside>
+    <div class="rooms"><div class="head"><h2>Rooms</h2><button class="new" id="newroom">+ New</button></div><div id="rooms"></div></div>
+    <h2>The room</h2>
+    <div id="agents"></div>
+    <div class="plan"><h2>Plan</h2><div class="bar"><i id="bar"></i></div><div class="lbl" id="planlbl">Idle</div></div>
+    <div class="files" id="files"></div>
+    <p class="note">Every number is computed by the Python engine (econometrics, game theory, optimisation). This page is an ACP client: the same agent runs inside Zed or JetBrains.</p>
+  </aside>
+</main>
+<div id="composer"><div class="box">
+  <div class="chips">
+    <button data-q="/brief">Run the full brief</button>
+    <button data-q="What should we charge next quarter?">What should we charge?</button>
+    <button data-q="What if Dune adds 0.4 Mt of capacity?">What if Dune adds 0.4 Mt?</button>
+    <button data-q="What does capping any region at 22% of our volume cost us?">Price a 22% cap</button>
+    <button data-q="What if demand in Europe falls 15%?">Europe demand -15%</button>
+    <button data-q="/recommend robust">Robust prices</button>
+    <button data-q="Are the rivals really competing, or is this a cartel?">Cartel check</button>
+    <button data-q="/redteam">Red team it</button>
+  </div>
+  <form id="f"><input type="text" id="q" placeholder="Ask a pricing question, or type / for commands" autocomplete="off"><button class="btn ghost" type="button" id="stop">Stop</button><button class="btn" type="submit">Ask</button></form>
+</div></div>
+<dialog id="perm"><b id="permtitle"></b><div class="opts" id="permopts"></div></dialog>
+<script>
+const ROOM = ["Data Steward","Demand Economist","Game Theorist","Strategist","Risk Analyst","Red Team","Memo Writer","Chief of Staff"];
+const $ = (s) => document.querySelector(s);
+const chat = $("#chat");
+const agentsEl = $("#agents");
+const cards = {};
+for (const who of ROOM) {
+  const d = document.createElement("div");
+  d.className = "agent";
+  d.innerHTML = `<div class="name">${who}<span class="state">idle</span></div><div class="what"></div>`;
+  agentsEl.appendChild(d);
+  cards[who] = d;
+}
+const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function inline(s) {
+  return esc(s)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
+    .replace(/(^|[\s(])_(.+?)_(?=[\s).,]|$)/g, "$1<i>$2</i>")
+    .replace(/(^|\s)\*(.+?)\*(?=\s|$|[.,])/g, "$1<i>$2</i>")
+    .replace(/<b>(PASS)<\/b>/g, '<span class="pass">PASS</span>').replace(/<b>(WARN)<\/b>/g, '<span class="warn">WARN</span>')
+    .replace(/<b>(FAIL)<\/b>/g, '<span class="fail">FAIL</span>');
+}
+function markdown(md) {
+  const lines = md.split("\n"); const out = []; let i = 0;
+  while (i < lines.length) {
+    const l = lines[i];
+    if (l.startsWith("```")) { const buf = []; i++; while (i < lines.length && !lines[i].startsWith("```")) buf.push(lines[i++]); i++; out.push(`<pre>${esc(buf.join("\n"))}</pre>`); continue; }
+    if (/^\|.*\|$/.test(l) && /^\|[-:| ]+\|$/.test(lines[i + 1] || "")) {
+      const cells = (r) => r.slice(1, -1).split("|").map((c) => c.trim());
+      const head = cells(l); const al = cells(lines[i + 1]).map((c) => (c.endsWith(":") ? "r" : "")); i += 2;
+      let h = `<table><tr>${head.map((c, k) => `<th class="${al[k]}">${inline(c)}</th>`).join("")}</tr>`;
+      while (i < lines.length && /^\|.*\|$/.test(lines[i])) { h += `<tr>${cells(lines[i]).map((c, k) => `<td class="${al[k]}">${inline(c)}</td>`).join("")}</tr>`; i++; }
+      out.push(h + "</table>"); continue;
+    }
+    if (/^### /.test(l)) { out.push(`<h3>${inline(l.slice(4))}</h3>`); i++; continue; }
+    if (/^---\s*$/.test(l)) { out.push("<hr>"); i++; continue; }
+    if (/^- /.test(l)) { let h = "<ul>"; while (i < lines.length && /^- /.test(lines[i])) h += `<li>${inline(lines[i++].slice(2))}</li>`; out.push(h + "</ul>"); continue; }
+    if (l.trim()) out.push(`<p>${inline(l)}</p>`);
+    i++;
+  }
+  return out.join("");
+}
+
+let ws, current = null, currentText = "", tools = {}, planTotal = 0;
+function scroll() { chat.scrollTop = chat.scrollHeight; }
+function agentMsg() {
+  if (!current) { current = document.createElement("div"); current.className = "turn"; current.innerHTML = '<div class="msg"></div>'; chat.appendChild(current); currentText = ""; }
+  return current.querySelector(".msg");
+}
+function setCard(who, state, what) {
+  const c = cards[who]; if (!c) return;
+  c.className = "agent " + (state === "working" ? "busy" : state === "done" ? "ok" : state === "failed" ? "bad" : "");
+  c.querySelector(".state").textContent = state;
+  if (what !== undefined) c.querySelector(".what").textContent = what;
+}
+function onUpdate(u) {
+  switch (u.sessionUpdate) {
+    case "user_message_chunk":
+      if (u.content.type === "text") userBubble(u.content.text);
+      break;
+    case "agent_message_chunk":
+      if (u.content.type === "text") { const el = agentMsg(); currentText += u.content.text; el.innerHTML = markdown(currentText); scroll(); }
+      break;
+    case "tool_call": {
+      current = null;
+      const [who, task] = u.title.split(": ");
+      const row = document.createElement("div"); row.className = "tool";
+      row.innerHTML = `<span class="dot"></span><span><b>${esc(who)}</b> · ${esc(task || "")} <span class="log"></span></span>`;
+      chat.appendChild(row); tools[u.toolCallId] = { row, who }; setCard(who, "working", task); scroll();
+      break;
+    }
+    case "tool_call_update": {
+      const t = tools[u.toolCallId]; if (!t) break;
+      const text = u.content?.[0]?.content?.text;
+      if (text) { const last = text.split("\n").at(-1); t.row.querySelector(".log").textContent = last; cards[t.who] && (cards[t.who].querySelector(".what").textContent = last.replace(/^[•✓✗] /, "")); }
+      if (u.content?.[0]?.type === "diff") showFiles();
+      for (const c of u.content ?? []) {
+        const r = c.content?.resource;
+        if (c.type === "content" && c.content?.type === "resource" && r?.mimeType === "image/svg+xml" && r.text) {
+          const box = document.createElement("div"); box.className = "chart";
+          const doc = new DOMParser().parseFromString(r.text, "image/svg+xml");
+          const svg = doc.documentElement;
+          if (svg && svg.nodeName === "svg") { box.appendChild(document.importNode(svg, true)); t.row.after(box); }
+        }
+      }
+      if (u.status === "completed") { t.row.classList.add("done"); setCard(t.who, "done"); }
+      if (u.status === "failed") { t.row.classList.add("failed"); setCard(t.who, "failed"); }
+      break;
+    }
+    case "plan": {
+      const done = u.entries.filter((e) => e.status === "completed").length; planTotal = u.entries.length;
+      $("#bar").style.width = `${(100 * done) / Math.max(planTotal, 1)}%`;
+      const cur = u.entries.find((e) => e.status === "in_progress");
+      $("#planlbl").textContent = cur ? `${done + 1}/${planTotal} · ${cur.content}` : done === planTotal ? `Done · ${planTotal} steps` : "Planning…";
+      break;
+    }
+    case "current_mode_update": setMode(u.currentModeId, false); break;
+  }
+}
+const REPLAY = document.documentElement.dataset.replay;
+const OUT = REPLAY ? "memo/" : "/out/";
+function showFiles() {
+  $("#files").innerHTML = `<h2>Memo</h2><a href="${OUT}memo.html" target="_blank">Board memo (HTML) ↗</a><a href="${OUT}memo.md" target="_blank">memo.md ↗</a><a href="${OUT}frontier.svg" target="_blank">frontier.svg ↗</a><a href="${OUT}risk.svg" target="_blank">risk.svg ↗</a>`;
+}
+function setMode(m, send = true) {
+  document.querySelectorAll("#modes button").forEach((b) => b.classList.toggle("on", b.dataset.mode === m));
+  if (send) ws.send(JSON.stringify({ type: "mode", modeId: m }));
+}
+function userBubble(text) {
+  const t = document.createElement("div"); t.className = "turn you"; t.innerHTML = `<div>${esc(text)}</div>`;
+  chat.appendChild(t); current = null; scroll();
+}
+function resetRoom(note) {
+  chat.innerHTML = note ? `<p class="banner">${esc(note)}</p>` : ""; current = null; currentText = ""; tools = {};
+  for (const w of ROOM) setCard(w, "idle", "");
+  $("#bar").style.width = "0"; $("#planlbl").textContent = "Idle"; $("#files").innerHTML = "";
+}
+function renderRooms(list, cur) {
+  const box = $("#rooms"); box.innerHTML = "";
+  for (const s of list) {
+    const d = document.createElement("div"); d.className = "room" + (s.sessionId === cur ? " on" : "");
+    const when = s.updatedAt ? new Date(s.updatedAt).toLocaleString([], { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
+    d.innerHTML = `<span class="t">${esc(s.title || "New room")}</span><span class="d">${esc(when)}</span><button class="x" title="Delete">×</button>`;
+    d.onclick = () => { if (s.sessionId !== cur) ws.send(JSON.stringify({ type: "load", sessionId: s.sessionId })); };
+    d.querySelector(".x").onclick = (e) => { e.stopPropagation(); ws.send(JSON.stringify({ type: "delete", sessionId: s.sessionId })); };
+    box.appendChild(d);
+  }
+}
+function ask(text) {
+  if (!text.trim()) return;
+  userBubble(text);
+  for (const w of ROOM) setCard(w, "idle", "");
+  ws.send(JSON.stringify({ type: "prompt", text }));
+}
+function connect() {
+  ws = new WebSocket(`${location.protocol === "https:" ? "wss" : "ws"}://${location.host}/ws`);
+  ws.onmessage = (e) => {
+    const m = JSON.parse(e.data);
+    if (m.type === "connected") { $("#conn").textContent = `ACP v${m.protocolVersion} · ${m.agent?.title ?? "agent"} ${m.agent?.version ?? ""}`; $("#conn").classList.add("live"); }
+    else if (m.type === "update") onUpdate(m.update);
+    else if (m.type === "session") { resetRoom(m.loaded ? "Reopened from the agent's session store (ACP session/load): conversation replayed, engine state restored." : ""); if (m.modes) setMode(m.modes.currentModeId, false); }
+    else if (m.type === "sessions") renderRooms(m.sessions, m.current);
+    else if (m.type === "turn_end") { current = null; if (m.stopReason === "cancelled") $("#planlbl").textContent = "Stopped"; }
+    else if (m.type === "permission") {
+      $("#permtitle").textContent = m.title; const box = $("#permopts"); box.innerHTML = "";
+      for (const o of m.options) { const b = document.createElement("button"); b.className = o.kind.startsWith("allow") ? "btn" : "btn ghost"; b.textContent = o.name;
+        b.onclick = () => { ws.send(JSON.stringify({ type: "permission", id: m.id, optionId: o.optionId })); $("#perm").close(); }; box.appendChild(b); }
+      $("#perm").showModal();
+    } else if (m.type === "error") { $("#conn").textContent = "agent error"; agentMsg().innerHTML = `<p class="fail">${esc(m.message)}</p>`; }
+  };
+  ws.onclose = () => { $("#conn").textContent = "disconnected"; $("#conn").classList.remove("live"); };
+}
+// Replay mode (the public demo site): the same console, fed from a recorded ACP session
+// instead of a live agent. Events play back with their original pacing, gaps capped.
+async function replay(url) {
+  const rec = await (await fetch(url)).json();
+  $("#conn").textContent = `Recorded ACP v${rec.protocolVersion} session · ${rec.agent?.title ?? "agent"} ${rec.agent?.version ?? ""}`;
+  document.querySelector(".rooms").style.display = "none";
+  $("#modes").style.display = "none";
+  $("#stop").style.display = "none";
+  const repo = "https://github.com/Apex1s/decision-room";
+  $("#q").disabled = true;
+  $("#q").placeholder = "Replay of a recorded session. Run it live in Zed or your terminal: see GitHub.";
+  $("#f").onsubmit = (e) => { e.preventDefault(); window.open(repo, "_blank"); };
+  $("#f").querySelector(".btn:not(.ghost)").textContent = "GitHub ↗";
+  const intro = document.createElement("div"); intro.className = "replaybar";
+  intro.innerHTML = `<b>Decision Room</b> prices a concentrated commodity market with seven specialist agents, then a red team grades the answer before anyone acts on it. ` +
+    `This is a real session recorded on ${esc(rec.recorded)} on the <b>synthetic demo market</b> (fictional producers Atlas, Boreal, Cerro and Dune), played back as it streamed over the Agent Client Protocol. ` +
+    `Pick a question below. <a href="${repo}" target="_blank">Code and method on GitHub ↗</a>`;
+  chat.appendChild(intro);
+  const chips = $(".chips"); chips.innerHTML = "";
+  let busy = false;
+  const play = async (turn, btn) => {
+    if (busy) return; busy = true;
+    chips.querySelectorAll("button").forEach((b) => (b.disabled = true));
+    userBubble(turn.prompt);
+    for (const w of ROOM) setCard(w, "idle", "");
+    let last = 0;
+    for (const ev of turn.events) {
+      const gap = Math.min(Math.max(ev.t - last, 0), 450);
+      last = ev.t;
+      if (gap) await new Promise((r) => setTimeout(r, gap));
+      if (ev.m.type === "update") onUpdate(ev.m.update);
+      else if (ev.m.type === "turn_end") current = null;
+    }
+    busy = false; btn.classList.add("played");
+    chips.querySelectorAll("button").forEach((b) => (b.disabled = false));
+  };
+  rec.turns.forEach((turn, i) => {
+    const b = document.createElement("button"); b.textContent = turn.prompt;
+    b.onclick = () => play(turn, b); chips.appendChild(b);
+    if (i === 0) setTimeout(() => play(turn, b), 600);
+  });
+}
+if (REPLAY) {
+  replay(REPLAY).catch((e) => { $("#conn").textContent = "could not load the recording"; console.error(e); });
+} else {
+  $("#f").onsubmit = (e) => { e.preventDefault(); ask($("#q").value); $("#q").value = ""; };
+  $("#stop").onclick = () => ws.send(JSON.stringify({ type: "cancel" }));
+  $("#newroom").onclick = () => ws.send(JSON.stringify({ type: "new" }));
+  document.querySelectorAll(".chips button").forEach((b) => (b.onclick = () => ask(b.dataset.q)));
+  document.querySelectorAll("#modes button").forEach((b) => (b.onclick = () => setMode(b.dataset.mode)));
+  connect();
+}
+</script>
+</body>
+</html>

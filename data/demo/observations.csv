@@ -1,0 +1,1841 @@
+period,region,product,price,quantity,market_size,cost_index
+1,South Asia,Atlas-Low,91.296,0.340578,3.1958,0.9771
+1,Latin America,Atlas-Low,91.882,0.301034,2.4901,0.9771
+1,Europe,Atlas-Low,98.391,0.183786,1.5678,0.9771
+1,East Asia,Atlas-Low,89.175,0.156574,1.7015,0.9771
+1,Africa,Atlas-Low,92.749,0.089846,0.9655,0.9771
+1,North America,Atlas-Low,93.856,0.119809,1.2265,0.9771
+1,South Asia,Atlas-Mid,104.274,0.279505,3.1958,0.9771
+1,Latin America,Atlas-Mid,103.478,0.215572,2.4901,0.9771
+1,Europe,Atlas-Mid,107.461,0.171247,1.5678,0.9771
+1,East Asia,Atlas-Mid,100.987,0.134097,1.7015,0.9771
+1,Africa,Atlas-Mid,110.844,0.130779,0.9655,0.9771
+1,North America,Atlas-Mid,103.316,0.097357,1.2265,0.9771
+1,South Asia,Atlas-High,119.86,0.296161,3.1958,0.9771
+1,Latin America,Atlas-High,120.846,0.209163,2.4901,0.9771
+1,Europe,Atlas-High,123.672,0.177633,1.5678,0.9771
+1,East Asia,Atlas-High,116.643,0.121668,1.7015,0.9771
+1,Africa,Atlas-High,126.379,0.095497,0.9655,0.9771
+1,North America,Atlas-High,122.857,0.158489,1.2265,0.9771
+1,South Asia,Boreal-Mid,106.57,0.169979,3.1958,1.015
+1,Latin America,Boreal-Mid,105.429,0.123779,2.4901,1.015
+1,Europe,Boreal-Mid,106.883,0.099522,1.5678,1.015
+1,East Asia,Boreal-Mid,108.274,0.125572,1.7015,1.015
+1,Africa,Boreal-Mid,104.02,0.036249,0.9655,1.015
+1,North America,Boreal-Mid,108.513,0.107373,1.2265,1.015
+1,South Asia,Boreal-High,128.008,0.322986,3.1958,1.015
+1,Latin America,Boreal-High,126.458,0.200491,2.4901,1.015
+1,Europe,Boreal-High,126.89,0.152408,1.5678,1.015
+1,East Asia,Boreal-High,130.099,0.169535,1.7015,1.015
+1,Africa,Boreal-High,123.295,0.05394,0.9655,1.015
+1,North America,Boreal-High,126.953,0.116498,1.2265,1.015
+1,South Asia,Cerro-Low,77.76,0.210098,3.1958,0.9362
+1,Latin America,Cerro-Low,84.51,0.327781,2.4901,0.9362
+1,East Asia,Cerro-Low,79.316,0.126734,1.7015,0.9362
+1,Africa,Cerro-Low,76.501,0.0512,0.9655,0.9362
+1,North America,Cerro-Low,85.797,0.146396,1.2265,0.9362
+1,South Asia,Cerro-Mid,92.218,0.268616,3.1958,0.9362
+1,Latin America,Cerro-Mid,96.603,0.28161,2.4901,0.9362
+1,Europe,Cerro-Mid,89.637,0.120043,1.5678,0.9362
+1,East Asia,Cerro-Mid,92.933,0.151366,1.7015,0.9362
+1,Africa,Cerro-Mid,89.538,0.062584,0.9655,0.9362
+1,North America,Cerro-Mid,94.604,0.124382,1.2265,0.9362
+1,South Asia,Dune-Low,76.457,0.359613,3.1958,0.9372
+1,Latin America,Dune-Low,71.199,0.10739,2.4901,0.9372
+1,Europe,Dune-Low,76.425,0.127683,1.5678,0.9372
+1,East Asia,Dune-Low,75.011,0.151667,1.7015,0.9372
+1,Africa,Dune-Low,77.702,0.114522,0.9655,0.9372
+2,South Asia,Atlas-Low,90.001,0.299127,3.0299,0.8964
+2,Latin America,Atlas-Low,88.877,0.222966,2.3015,0.8964
+2,Europe,Atlas-Low,94.988,0.149951,1.5278,0.8964
+2,East Asia,Atlas-Low,86.199,0.154043,1.8025,0.8964
+2,Africa,Atlas-Low,92.5,0.090938,1.0558,0.8964
+2,North America,Atlas-Low,92.225,0.117237,1.2817,0.8964
+2,South Asia,Atlas-Mid,102.943,0.310655,3.0299,0.8964
+2,Latin America,Atlas-Mid,99.14,0.149979,2.3015,0.8964
+2,Europe,Atlas-Mid,104.899,0.165949,1.5278,0.8964
+2,East Asia,Atlas-Mid,96.447,0.105884,1.8025,0.8964
+2,Africa,Atlas-Mid,111.252,0.136801,1.0558,0.8964
+2,North America,Atlas-Mid,100.808,0.131084,1.2817,0.8964
+2,South Asia,Atlas-High,119.844,0.347908,3.0299,0.8964
+2,Latin America,Atlas-High,119.775,0.293947,2.3015,0.8964
+2,Europe,Atlas-High,122.957,0.21575,1.5278,0.8964
+2,East Asia,Atlas-High,114.495,0.144949,1.8025,0.8964
+2,Africa,Atlas-High,126.13,0.152802,1.0558,0.8964
+2,North America,Atlas-High,118.024,0.145951,1.2817,0.8964
+2,South Asia,Boreal-Mid,105.222,0.179366,3.0299,1.0328
+2,Latin America,Boreal-Mid,104.854,0.124872,2.3015,1.0328
+2,Europe,Boreal-Mid,105.109,0.088477,1.5278,1.0328
+2,East Asia,Boreal-Mid,108.89,0.173464,1.8025,1.0328
+2,Africa,Boreal-Mid,104.387,0.050834,1.0558,1.0328
+2,North America,Boreal-Mid,107.995,0.124834,1.2817,1.0328
+2,South Asia,Boreal-High,124.4,0.232442,3.0299,1.0328
+2,Latin America,Boreal-High,123.677,0.176532,2.3015,1.0328
+2,Europe,Boreal-High,123.634,0.11958,1.5278,1.0328
+2,East Asia,Boreal-High,126.865,0.129136,1.8025,1.0328
+2,Africa,Boreal-High,122.04,0.065991,1.0558,1.0328
+2,North America,Boreal-High,127.109,0.12433,1.2817,1.0328
+2,South Asia,Cerro-Low,78.815,0.194306,3.0299,0.9599
+2,Latin America,Cerro-Low,88.399,0.349788,2.3015,0.9599
+2,East Asia,Cerro-Low,80.734,0.154563,1.8025,0.9599
+2,Africa,Cerro-Low,77.942,0.0698,1.0558,0.9599
+2,North America,Cerro-Low,86.049,0.123768,1.2817,0.9599
+2,South Asia,Cerro-Mid,92.961,0.255577,3.0299,0.9599
+2,Latin America,Cerro-Mid,100.376,0.280592,2.3015,0.9599
+2,Europe,Cerro-Mid,91.524,0.127834,1.5278,0.9599
+2,East Asia,Cerro-Mid,93.937,0.162568,1.8025,0.9599
+2,Africa,Cerro-Mid,88.874,0.034194,1.0558,0.9599
+2,North America,Cerro-Mid,94.91,0.138233,1.2817,0.9599
+2,South Asia,Dune-Low,77.188,0.346476,3.0299,0.9644
+2,Latin America,Dune-Low,71.27,0.086664,2.3015,0.9644
+2,Europe,Dune-Low,78.638,0.145569,1.5278,0.9644
+2,East Asia,Dune-Low,75.881,0.174677,1.8025,0.9644
+2,Africa,Dune-Low,76.791,0.106465,1.0558,0.9644
+3,South Asia,Atlas-Low,92.626,0.270789,2.8622,0.9436
+3,Latin America,Atlas-Low,90.346,0.228982,2.3569,0.9436
+3,Europe,Atlas-Low,98.725,0.199096,1.6645,0.9436
+3,East Asia,Atlas-Low,90.049,0.15646,1.9355,0.9436
+3,Africa,Atlas-Low,94.534,0.090044,1.0548,0.9436
+3,North America,Atlas-Low,95.653,0.123477,1.1972,0.9436
+3,South Asia,Atlas-Mid,106.268,0.301304,2.8622,0.9436
+3,Latin America,Atlas-Mid,101.309,0.14681,2.3569,0.9436
+3,Europe,Atlas-Mid,109.65,0.205915,1.6645,0.9436
+3,East Asia,Atlas-Mid,103.658,0.180071,1.9355,0.9436
+3,Africa,Atlas-Mid,113.545,0.141045,1.0548,0.9436
+3,North America,Atlas-Mid,102.702,0.101189,1.1972,0.9436
+3,South Asia,Atlas-High,126.411,0.323528,2.8622,0.9436
+3,Latin America,Atlas-High,122.006,0.238279,2.3569,0.9436
+3,Europe,Atlas-High,126.747,0.181145,1.6645,0.9436
+3,East Asia,Atlas-High,122.768,0.177477,1.9355,0.9436
+3,Africa,Atlas-High,131.399,0.137774,1.0548,0.9436
+3,North America,Atlas-High,121.429,0.13161,1.1972,0.9436
+3,South Asia,Boreal-Mid,114.306,0.088419,2.8622,1.2006
+3,Latin America,Boreal-Mid,114.965,0.080559,2.3569,1.2006
+3,Europe,Boreal-Mid,116.093,0.084657,1.6645,1.2006
+3,East Asia,Boreal-Mid,117.265,0.12844,1.9355,1.2006
+3,Africa,Boreal-Mid,115.324,0.045042,1.0548,1.2006
+3,North America,Boreal-Mid,120.9,0.123894,1.1972,1.2006
+3,South Asia,Boreal-High,136.32,0.149127,2.8622,1.2006
+3,Latin America,Boreal-High,137.87,0.147765,2.3569,1.2006
+3,Europe,Boreal-High,137.949,0.102443,1.6645,1.2006
+3,East Asia,Boreal-High,137.978,0.101678,1.9355,1.2006
+3,Africa,Boreal-High,135.318,0.04527,1.0548,1.2006
+3,North America,Boreal-High,141.818,0.112313,1.1972,1.2006
+3,South Asia,Cerro-Low,81.985,0.151733,2.8622,1.0202
+3,Latin America,Cerro-Low,93.042,0.369942,2.3569,1.0202
+3,East Asia,Cerro-Low,83.982,0.155468,1.9355,1.0202
+3,Africa,Cerro-Low,81.115,0.064192,1.0548,1.0202
+3,North America,Cerro-Low,87.116,0.103017,1.1972,1.0202
+3,South Asia,Cerro-Mid,99.795,0.335424,2.8622,1.0202
+3,Latin America,Cerro-Mid,107.538,0.323846,2.3569,1.0202
+3,Europe,Cerro-Mid,94.849,0.129817,1.6645,1.0202
+3,East Asia,Cerro-Mid,97.393,0.153245,1.9355,1.0202
+3,Africa,Cerro-Mid,93.638,0.04587,1.0548,1.0202
+3,North America,Cerro-Mid,98.03,0.118295,1.1972,1.0202
+3,South Asia,Dune-Low,82.163,0.341504,2.8622,0.9911
+3,Latin America,Dune-Low,75.18,0.084824,2.3569,0.9911
+3,Europe,Dune-Low,81.968,0.163693,1.6645,0.9911
+3,East Asia,Dune-Low,79.557,0.165185,1.9355,0.9911
+3,Africa,Dune-Low,81.169,0.11123,1.0548,0.9911
+4,South Asia,Atlas-Low,91.797,0.170266,3.06,0.9434
+4,Latin America,Atlas-Low,92.385,0.244958,2.5716,0.9434
+4,Europe,Atlas-Low,100.034,0.182592,1.721,0.9434
+4,East Asia,Atlas-Low,92.245,0.164945,1.8515,0.9434
+4,Africa,Atlas-Low,98.984,0.109665,0.9737,0.9434
+4,North America,Atlas-Low,96.646,0.122688,1.1536,0.9434
+4,South Asia,Atlas-Mid,108.573,0.343345,3.06,0.9434
+4,Latin America,Atlas-Mid,104.156,0.233879,2.5716,0.9434
+4,Europe,Atlas-Mid,109.242,0.186678,1.721,0.9434
+4,East Asia,Atlas-Mid,105.096,0.160131,1.8515,0.9434
+4,Africa,Atlas-Mid,113.697,0.115438,0.9737,0.9434
+4,North America,Atlas-Mid,102.955,0.081915,1.1536,0.9434
+4,South Asia,Atlas-High,128.516,0.440598,3.06,0.9434
+4,Latin America,Atlas-High,120.708,0.220235,2.5716,0.9434
+4,Europe,Atlas-High,124.55,0.193541,1.721,0.9434
+4,East Asia,Atlas-High,122.852,0.1697,1.8515,0.9434
+4,Africa,Atlas-High,132.458,0.133409,0.9737,0.9434
+4,North America,Atlas-High,120.077,0.113066,1.1536,0.9434
+4,South Asia,Boreal-Mid,108.673,0.119663,3.06,1.112
+4,Latin America,Boreal-Mid,109.799,0.117213,2.5716,1.112
+4,Europe,Boreal-Mid,111.11,0.096702,1.721,1.112
+4,East Asia,Boreal-Mid,111.34,0.123759,1.8515,1.112
+4,Africa,Boreal-Mid,109.24,0.043665,0.9737,1.112
+4,North America,Boreal-Mid,115.246,0.114614,1.1536,1.112
+4,South Asia,Boreal-High,128.502,0.178801,3.06,1.112
+4,Latin America,Boreal-High,133.34,0.220288,2.5716,1.112
+4,Europe,Boreal-High,132.818,0.159825,1.721,1.112
+4,East Asia,Boreal-High,131.585,0.121068,1.8515,1.112
+4,Africa,Boreal-High,128.14,0.050498,0.9737,1.112
+4,North America,Boreal-High,136.839,0.141353,1.1536,1.112
+4,South Asia,Cerro-Low,82.729,0.197652,3.06,1.0261
+4,Latin America,Cerro-Low,92.949,0.389321,2.5716,1.0261
+4,East Asia,Cerro-Low,82.353,0.118846,1.8515,1.0261
+4,Africa,Cerro-Low,79.884,0.03842,0.9737,1.0261
+4,North America,Cerro-Low,87.514,0.101981,1.1536,1.0261
+4,South Asia,Cerro-Mid,98.444,0.293969,3.06,1.0261
+4,Latin America,Cerro-Mid,104.818,0.320483,2.5716,1.0261
+4,Europe,Cerro-Mid,95.125,0.12607,1.721,1.0261
+4,East Asia,Cerro-Mid,97.2,0.142855,1.8515,1.0261
+4,Africa,Cerro-Mid,94.646,0.057123,0.9737,1.0261
+4,North America,Cerro-Mid,99.355,0.122673,1.1536,1.0261
+4,South Asia,Dune-Low,86.949,0.401314,3.06,0.9374
+4,Latin America,Dune-Low,77.349,0.058558,2.5716,0.9374
+4,Europe,Dune-Low,83.577,0.129023,1.721,0.9374
+4,East Asia,Dune-Low,83.701,0.18742,1.8515,0.9374
+4,Africa,Dune-Low,83.449,0.091772,0.9737,0.9374
+5,South Asia,Atlas-Low,93.246,0.21789,3.2597,0.9051
+5,Latin America,Atlas-Low,91.532,0.23813,2.5399,0.9051
+5,Europe,Atlas-Low,100.171,0.169168,1.5991,0.9051
+5,East Asia,Atlas-Low,89.434,0.122354,1.7355,0.9051
+5,Africa,Atlas-Low,95.66,0.087755,0.9849,0.9051
+5,North America,Atlas-Low,95.77,0.123237,1.251,0.9051
+5,South Asia,Atlas-Mid,110.206,0.401636,3.2597,0.9051
+5,Latin America,Atlas-Mid,102.21,0.172968,2.5399,0.9051
+5,Europe,Atlas-Mid,107.989,0.173096,1.5991,0.9051
+5,East Asia,Atlas-Mid,101.939,0.147598,1.7355,0.9051
+5,Africa,Atlas-Mid,110.134,0.11392,0.9849,0.9051
+5,North America,Atlas-Mid,102.916,0.095241,1.251,0.9051
+5,South Asia,Atlas-High,128.406,0.506836,3.2597,0.9051
+5,Latin America,Atlas-High,118.834,0.253478,2.5399,0.9051
+5,Europe,Atlas-High,120.869,0.16937,1.5991,0.9051
+5,East Asia,Atlas-High,118.09,0.131396,1.7355,0.9051
+5,Africa,Atlas-High,127.191,0.12601,0.9849,0.9051
+5,North America,Atlas-High,121.281,0.156316,1.251,0.9051
+5,South Asia,Boreal-Mid,105.035,0.176988,3.2597,1.0119
+5,Latin America,Boreal-Mid,104.777,0.095272,2.5399,1.0119
+5,Europe,Boreal-Mid,107.106,0.094704,1.5991,1.0119
+5,East Asia,Boreal-Mid,107.054,0.127473,1.7355,1.0119
+5,Africa,Boreal-Mid,106.263,0.065271,0.9849,1.0119
+5,North America,Boreal-Mid,111.596,0.143451,1.251,1.0119
+5,South Asia,Boreal-High,122.455,0.218245,3.2597,1.0119
+5,Latin America,Boreal-High,127.008,0.26432,2.5399,1.0119
+5,Europe,Boreal-High,128.722,0.186546,1.5991,1.0119
+5,East Asia,Boreal-High,126.945,0.129692,1.7355,1.0119
+5,Africa,Boreal-High,123.261,0.066629,0.9849,1.0119
+5,North America,Boreal-High,128.394,0.132834,1.251,1.0119
+5,South Asia,Cerro-Low,82.531,0.166551,3.2597,1.0569
+5,Latin America,Cerro-Low,93.965,0.363321,2.5399,1.0569
+5,East Asia,Cerro-Low,84.42,0.114196,1.7355,1.0569
+5,Africa,Cerro-Low,81.935,0.044198,0.9849,1.0569
+5,North America,Cerro-Low,89.678,0.12568,1.251,1.0569
+5,South Asia,Cerro-Mid,97.296,0.211718,3.2597,1.0569
+5,Latin America,Cerro-Mid,107.747,0.32779,2.5399,1.0569
+5,Europe,Cerro-Mid,96.721,0.109973,1.5991,1.0569
+5,East Asia,Cerro-Mid,100.01,0.16227,1.7355,1.0569
+5,Africa,Cerro-Mid,95.804,0.045792,0.9849,1.0569
+5,North America,Cerro-Mid,99.426,0.095651,1.251,1.0569
+5,South Asia,Dune-Low,86.605,0.402844,3.2597,1.0445
+5,Latin America,Dune-Low,77.206,0.068756,2.5399,1.0445
+5,Europe,Dune-Low,82.31,0.113074,1.5991,1.0445
+5,East Asia,Dune-Low,84.398,0.191383,1.7355,1.0445
+5,Africa,Dune-Low,83.291,0.094398,0.9849,1.0445
+6,South Asia,Atlas-Low,92.112,0.183763,3.0904,0.9825
+6,Latin America,Atlas-Low,88.284,0.158124,2.3475,0.9825
+6,Europe,Atlas-Low,96.924,0.17384,1.5583,0.9825
+6,East Asia,Atlas-Low,87.329,0.103309,1.8386,0.9825
+6,Africa,Atlas-Low,95.214,0.095986,1.0769,0.9825
+6,North America,Atlas-Low,93.996,0.111644,1.3073,0.9825
+6,South Asia,Atlas-Mid,108.421,0.304713,3.0904,0.9825
+6,Latin America,Atlas-Mid,100.815,0.165842,2.3475,0.9825
+6,Europe,Atlas-Mid,107.031,0.183671,1.5583,0.9825
+6,East Asia,Atlas-Mid,101.565,0.148786,1.8386,0.9825
+6,Africa,Atlas-Mid,108.274,0.096249,1.0769,0.9825
+6,North America,Atlas-Mid,103.2,0.109788,1.3073,0.9825
+6,South Asia,Atlas-High,131.996,0.556853,3.0904,0.9825
+6,Latin America,Atlas-High,120.699,0.269976,2.3475,0.9825
+6,Europe,Atlas-High,120.702,0.132965,1.5583,0.9825
+6,East Asia,Atlas-High,120.645,0.165565,1.8386,0.9825
+6,Africa,Atlas-High,131.535,0.17908,1.0769,0.9825
+6,North America,Atlas-High,121.958,0.163414,1.3073,0.9825
+6,South Asia,Boreal-Mid,107.876,0.209579,3.0904,1.0626
+6,Latin America,Boreal-Mid,106.777,0.125156,2.3475,1.0626
+6,Europe,Boreal-Mid,109.224,0.116239,1.5583,1.0626
+6,East Asia,Boreal-Mid,110.146,0.168078,1.8386,1.0626
+6,Africa,Boreal-Mid,107.366,0.067507,1.0769,1.0626
+6,North America,Boreal-Mid,111.963,0.140251,1.3073,1.0626
+6,South Asia,Boreal-High,123.796,0.166129,3.0904,1.0626
+6,Latin America,Boreal-High,127.712,0.197774,2.3475,1.0626
+6,Europe,Boreal-High,131.554,0.166625,1.5583,1.0626
+6,East Asia,Boreal-High,127.886,0.117081,1.8386,1.0626
+6,Africa,Boreal-High,123.795,0.057602,1.0769,1.0626
+6,North America,Boreal-High,130.402,0.14096,1.3073,1.0626
+6,South Asia,Cerro-Low,81.616,0.192109,3.0904,1.0135
+6,Latin America,Cerro-Low,91.586,0.304782,2.3475,1.0135
+6,East Asia,Cerro-Low,83.151,0.143461,1.8386,1.0135
+6,Africa,Cerro-Low,80.568,0.052836,1.0769,1.0135
+6,North America,Cerro-Low,87.79,0.119419,1.3073,1.0135
+6,South Asia,Cerro-Mid,94.815,0.196082,3.0904,1.0135
+6,Latin America,Cerro-Mid,104.586,0.326692,2.3475,1.0135
+6,Europe,Cerro-Mid,93.58,0.110427,1.5583,1.0135
+6,East Asia,Cerro-Mid,95.637,0.12931,1.8386,1.0135
+6,Africa,Cerro-Mid,94.983,0.071006,1.0769,1.0135
+6,North America,Cerro-Mid,96.731,0.109126,1.3073,1.0135
+6,South Asia,Dune-Low,84.382,0.321985,3.0904,1.1147
+6,Latin America,Dune-Low,78.165,0.104466,2.3475,1.1147
+6,Europe,Dune-Low,83.302,0.133383,1.5583,1.1147
+6,East Asia,Dune-Low,83.197,0.1761,1.8386,1.1147
+6,Africa,Dune-Low,81.978,0.089571,1.0769,1.1147
+7,South Asia,Atlas-Low,92.909,0.141389,2.9194,1.0567
+7,Latin America,Atlas-Low,90.363,0.138954,2.4041,1.0567
+7,Europe,Atlas-Low,99.356,0.176385,1.6978,1.0567
+7,East Asia,Atlas-Low,90.034,0.073045,1.9742,1.0567
+7,Africa,Atlas-Low,96.278,0.095264,1.0759,1.0567
+7,North America,Atlas-Low,96.996,0.107786,1.2212,1.0567
+7,South Asia,Atlas-Mid,111.589,0.307697,2.9194,1.0567
+7,Latin America,Atlas-Mid,104.059,0.148349,2.4041,1.0567
+7,Europe,Atlas-Mid,108.556,0.150836,1.6978,1.0567
+7,East Asia,Atlas-Mid,106.74,0.169507,1.9742,1.0567
+7,Africa,Atlas-Mid,108.257,0.076406,1.0759,1.0567
+7,North America,Atlas-Mid,107.751,0.10893,1.2212,1.0567
+7,South Asia,Atlas-High,131.898,0.38634,2.9194,1.0567
+7,Latin America,Atlas-High,123.973,0.204206,2.4041,1.0567
+7,Europe,Atlas-High,126.677,0.159937,1.6978,1.0567
+7,East Asia,Atlas-High,128.257,0.197292,1.9742,1.0567
+7,Africa,Atlas-High,131.851,0.143723,1.0759,1.0567
+7,North America,Atlas-High,125.573,0.121897,1.2212,1.0567
+7,South Asia,Boreal-Mid,105.456,0.162118,2.9194,1.0338
+7,Latin America,Boreal-Mid,106.577,0.156625,2.4041,1.0338
+7,Europe,Boreal-Mid,108.527,0.135952,1.6978,1.0338
+7,East Asia,Boreal-Mid,108.334,0.181275,1.9742,1.0338
+7,Africa,Boreal-Mid,107.251,0.079528,1.0759,1.0338
+7,North America,Boreal-Mid,109.041,0.104277,1.2212,1.0338
+7,South Asia,Boreal-High,123.486,0.198889,2.9194,1.0338
+7,Latin America,Boreal-High,127.574,0.205434,2.4041,1.0338
+7,Europe,Boreal-High,128.763,0.169465,1.6978,1.0338
+7,East Asia,Boreal-High,124.588,0.107355,1.9742,1.0338
+7,Africa,Boreal-High,123.866,0.068165,1.0759,1.0338
+7,North America,Boreal-High,129.933,0.139397,1.2212,1.0338
+7,South Asia,Cerro-Low,82.651,0.233851,2.9194,1.005
+7,Latin America,Cerro-Low,95.681,0.398896,2.4041,1.005
+7,East Asia,Cerro-Low,84.731,0.172808,1.9742,1.005
+7,Africa,Cerro-Low,80.932,0.056317,1.0759,1.005
+7,North America,Cerro-Low,88.475,0.124283,1.2212,1.005
+7,South Asia,Cerro-Mid,95.471,0.214026,2.9194,1.005
+7,Latin America,Cerro-Mid,105.339,0.331939,2.4041,1.005
+7,Europe,Cerro-Mid,94.754,0.154913,1.6978,1.005
+7,East Asia,Cerro-Mid,95.458,0.135487,1.9742,1.005
+7,Africa,Cerro-Mid,96.468,0.097287,1.0759,1.005
+7,North America,Cerro-Mid,98.033,0.122542,1.2212,1.005
+7,South Asia,Dune-Low,84.39,0.34695,2.9194,1.1065
+7,Latin America,Dune-Low,76.728,0.069621,2.4041,1.1065
+7,Europe,Dune-Low,83.392,0.154353,1.6978,1.1065
+7,East Asia,Dune-Low,82.533,0.180293,1.9742,1.1065
+7,Africa,Dune-Low,81.85,0.09822,1.0759,1.1065
+8,South Asia,Atlas-Low,91.166,0.16723,3.1212,1.0295
+8,Latin America,Atlas-Low,89.552,0.155817,2.623,1.0295
+8,Europe,Atlas-Low,99.547,0.198714,1.7555,1.0295
+8,East Asia,Atlas-Low,89.842,0.092928,1.8886,1.0295
+8,Africa,Atlas-Low,95.397,0.083603,0.9932,1.0295
+8,North America,Atlas-Low,94.229,0.087806,1.1766,1.0295
+8,South Asia,Atlas-Mid,109.733,0.382852,3.1212,1.0295
+8,Latin America,Atlas-Mid,103.299,0.183794,2.623,1.0295
+8,Europe,Atlas-Mid,108.261,0.169331,1.7555,1.0295
+8,East Asia,Atlas-Mid,104.408,0.13118,1.8886,1.0295
+8,Africa,Atlas-Mid,111.113,0.10693,0.9932,1.0295
+8,North America,Atlas-Mid,106.912,0.12343,1.1766,1.0295
+8,South Asia,Atlas-High,126.41,0.321455,3.1212,1.0295
+8,Latin America,Atlas-High,123.783,0.245134,2.623,1.0295
+8,Europe,Atlas-High,124.342,0.158324,1.7555,1.0295
+8,East Asia,Atlas-High,126.621,0.226547,1.8886,1.0295
+8,Africa,Atlas-High,132.781,0.131339,0.9932,1.0295
+8,North America,Atlas-High,124.104,0.118471,1.1766,1.0295
+8,South Asia,Boreal-Mid,106.18,0.14014,3.1212,1.0446
+8,Latin America,Boreal-Mid,107.774,0.176814,2.623,1.0446
+8,Europe,Boreal-Mid,109.563,0.13014,1.7555,1.0446
+8,East Asia,Boreal-Mid,110.79,0.178438,1.8886,1.0446
+8,Africa,Boreal-Mid,106.691,0.057952,0.9932,1.0446
+8,North America,Boreal-Mid,108.347,0.083405,1.1766,1.0446
+8,South Asia,Boreal-High,126.985,0.249732,3.1212,1.0446
+8,Latin America,Boreal-High,127.566,0.193298,2.623,1.0446
+8,Europe,Boreal-High,131.174,0.190843,1.7555,1.0446
+8,East Asia,Boreal-High,126.549,0.118709,1.8886,1.0446
+8,Africa,Boreal-High,123.833,0.047962,0.9932,1.0446
+8,North America,Boreal-High,129.945,0.121927,1.1766,1.0446
+8,South Asia,Cerro-Low,81.524,0.238091,3.1212,0.9802
+8,Latin America,Cerro-Low,91.843,0.388833,2.623,0.9802
+8,East Asia,Cerro-Low,81.867,0.142944,1.8886,0.9802
+8,Africa,Cerro-Low,79.507,0.057889,0.9932,0.9802
+8,North America,Cerro-Low,90.02,0.128915,1.1766,0.9802
+8,South Asia,Cerro-Mid,94.793,0.271044,3.1212,0.9802
+8,Latin America,Cerro-Mid,101.628,0.328751,2.623,0.9802
+8,Europe,Cerro-Mid,92.678,0.142491,1.7555,0.9802
+8,East Asia,Cerro-Mid,93.857,0.139806,1.8886,0.9802
+8,Africa,Cerro-Mid,92.983,0.066349,0.9932,0.9802
+8,North America,Cerro-Mid,98.053,0.134747,1.1766,0.9802
+8,South Asia,Dune-Low,85.985,0.368529,3.1212,1.0552
+8,Latin America,Dune-Low,79.079,0.109146,2.623,1.0552
+8,Europe,Dune-Low,84.096,0.146459,1.7555,1.0552
+8,East Asia,Dune-Low,84.603,0.184216,1.8886,1.0552
+8,Africa,Dune-Low,84.038,0.097483,0.9932,1.0552
+9,South Asia,Atlas-Low,87.84,0.196212,3.3249,0.9796
+9,Latin America,Atlas-Low,90.348,0.207519,2.5907,0.9796
+9,Europe,Atlas-Low,97.273,0.169026,1.6311,0.9796
+9,East Asia,Atlas-Low,89.63,0.132971,1.7702,0.9796
+9,Africa,Atlas-Low,95.212,0.116446,1.0046,0.9796
+9,North America,Atlas-Low,93.031,0.093975,1.276,0.9796
+9,South Asia,Atlas-Mid,103.903,0.366612,3.3249,0.9796
+9,Latin America,Atlas-Mid,101.953,0.186633,2.5907,0.9796
+9,Europe,Atlas-Mid,107.734,0.179555,1.6311,0.9796
+9,East Asia,Atlas-Mid,104.539,0.167578,1.7702,0.9796
+9,Africa,Atlas-Mid,107.991,0.090028,1.0046,0.9796
+9,North America,Atlas-Mid,104.72,0.141846,1.276,0.9796
+9,South Asia,Atlas-High,122.185,0.324874,3.3249,0.9796
+9,Latin America,Atlas-High,121.183,0.303011,2.5907,0.9796
+9,Europe,Atlas-High,122.961,0.182088,1.6311,0.9796
+9,East Asia,Atlas-High,122.084,0.19227,1.7702,0.9796
+9,Africa,Atlas-High,129.971,0.127751,1.0046,0.9796
+9,North America,Atlas-High,122.136,0.15229,1.276,0.9796
+9,South Asia,Boreal-Mid,106.8,0.189648,3.3249,1.046
+9,Latin America,Boreal-Mid,110.558,0.224973,2.5907,1.046
+9,Europe,Boreal-Mid,108.22,0.090839,1.6311,1.046
+9,East Asia,Boreal-Mid,109.251,0.130167,1.7702,1.046
+9,Africa,Boreal-Mid,106.115,0.047775,1.0046,1.046
+9,North America,Boreal-Mid,109.504,0.109768,1.276,1.046
+9,South Asia,Boreal-High,126.52,0.20973,3.3249,1.046
+9,Latin America,Boreal-High,129.095,0.239685,2.5907,1.046
+9,Europe,Boreal-High,129.257,0.170286,1.6311,1.046
+9,East Asia,Boreal-High,127.828,0.138959,1.7702,1.046
+9,Africa,Boreal-High,123.616,0.04552,1.0046,1.046
+9,North America,Boreal-High,129.577,0.12347,1.276,1.046
+9,South Asia,Cerro-Low,85.851,0.242659,3.3249,1.0698
+9,Latin America,Cerro-Low,91.038,0.304271,2.5907,1.0698
+9,East Asia,Cerro-Low,85.781,0.144286,1.7702,1.0698
+9,Africa,Cerro-Low,83.815,0.05816,1.0046,1.0698
+9,North America,Cerro-Low,92.973,0.133757,1.276,1.0698
+9,South Asia,Cerro-Mid,101.397,0.329425,3.3249,1.0698
+9,Latin America,Cerro-Mid,102.02,0.223805,2.5907,1.0698
+9,Europe,Cerro-Mid,97.727,0.11835,1.6311,1.0698
+9,East Asia,Cerro-Mid,98.654,0.10293,1.7702,1.0698
+9,Africa,Cerro-Mid,99.763,0.072359,1.0046,1.0698
+9,North America,Cerro-Mid,101.967,0.130124,1.276,1.0698
+9,South Asia,Dune-Low,89.95,0.405457,3.3249,1.0758
+9,Latin America,Dune-Low,82.208,0.089795,2.5907,1.0758
+9,Europe,Dune-Low,88.165,0.13723,1.6311,1.0758
+9,East Asia,Dune-Low,86.742,0.160003,1.7702,1.0758
+9,Africa,Dune-Low,86.284,0.090067,1.0046,1.0758
+10,South Asia,Atlas-Low,91.532,0.21407,3.1523,1.0203
+10,Latin America,Atlas-Low,92.244,0.180862,2.3945,1.0203
+10,Europe,Atlas-Low,97.829,0.156143,1.5895,1.0203
+10,East Asia,Atlas-Low,90.815,0.123697,1.8753,1.0203
+10,Africa,Atlas-Low,97.805,0.118913,1.0985,1.0203
+10,North America,Atlas-Low,95.021,0.109282,1.3334,1.0203
+10,South Asia,Atlas-Mid,109.875,0.374265,3.1523,1.0203
+10,Latin America,Atlas-Mid,106.103,0.212639,2.3945,1.0203
+10,Europe,Atlas-Mid,109.136,0.156681,1.5895,1.0203
+10,East Asia,Atlas-Mid,105.978,0.175561,1.8753,1.0203
+10,Africa,Atlas-Mid,111.869,0.103454,1.0985,1.0203
+10,North America,Atlas-Mid,104.835,0.106051,1.3334,1.0203
+10,South Asia,Atlas-High,125.979,0.308848,3.1523,1.0203
+10,Latin America,Atlas-High,123.06,0.262731,2.3945,1.0203
+10,Europe,Atlas-High,125.989,0.192583,1.5895,1.0203
+10,East Asia,Atlas-High,123.146,0.177174,1.8753,1.0203
+10,Africa,Atlas-High,133.496,0.143409,1.0985,1.0203
+10,North America,Atlas-High,124.204,0.155811,1.3334,1.0203
+10,South Asia,Boreal-Mid,107.196,0.141068,3.1523,0.9025
+10,Latin America,Boreal-Mid,109.818,0.150719,2.3945,0.9025
+10,Europe,Boreal-Mid,110.65,0.107912,1.5895,0.9025
+10,East Asia,Boreal-Mid,108.243,0.099565,1.8753,0.9025
+10,Africa,Boreal-Mid,108.073,0.060722,1.0985,0.9025
+10,North America,Boreal-Mid,113.083,0.151815,1.3334,0.9025
+10,South Asia,Boreal-High,125.407,0.231034,3.1523,0.9025
+10,Latin America,Boreal-High,128.727,0.264769,2.3945,0.9025
+10,Europe,Boreal-High,128.246,0.178799,1.5895,0.9025
+10,East Asia,Boreal-High,127.176,0.163777,1.8753,0.9025
+10,Africa,Boreal-High,122.634,0.055559,1.0985,0.9025
+10,North America,Boreal-High,129.453,0.140467,1.3334,0.9025
+10,South Asia,Cerro-Low,85.775,0.259258,3.1523,1.072
+10,Latin America,Cerro-Low,89.818,0.246515,2.3945,1.072
+10,East Asia,Cerro-Low,85.14,0.112029,1.8753,1.072
+10,Africa,Cerro-Low,83.111,0.057003,1.0985,1.072
+10,North America,Cerro-Low,91.958,0.127921,1.3334,1.072
+10,South Asia,Cerro-Mid,99.6,0.229081,3.1523,1.072
+10,Latin America,Cerro-Mid,101.828,0.214054,2.3945,1.072
+10,Europe,Cerro-Mid,97.283,0.098578,1.5895,1.072
+10,East Asia,Cerro-Mid,101.249,0.175121,1.8753,1.072
+10,Africa,Cerro-Mid,97.946,0.059533,1.0985,1.072
+10,North America,Cerro-Mid,101.654,0.133596,1.3334,1.072
+10,South Asia,Dune-Low,86.225,0.346146,3.1523,1.048
+10,Latin America,Dune-Low,80.891,0.101174,2.3945,1.048
+10,Europe,Dune-Low,87.262,0.155455,1.5895,1.048
+10,East Asia,Dune-Low,86.351,0.190865,1.8753,1.048
+10,Africa,Dune-Low,84.455,0.09924,1.0985,1.048
+11,South Asia,Atlas-Low,91.722,0.275453,2.9778,0.9794
+11,Latin America,Atlas-Low,89.207,0.158703,2.4522,0.9794
+11,Europe,Atlas-Low,98.365,0.170927,1.7317,0.9794
+11,East Asia,Atlas-Low,89.454,0.150403,2.0136,0.9794
+11,Africa,Atlas-Low,95.877,0.118306,1.0974,0.9794
+11,North America,Atlas-Low,94.439,0.11957,1.2456,0.9794
+11,South Asia,Atlas-Mid,106.015,0.266978,2.9778,0.9794
+11,Latin America,Atlas-Mid,103.263,0.217911,2.4522,0.9794
+11,Europe,Atlas-Mid,108.332,0.194707,1.7317,0.9794
+11,East Asia,Atlas-Mid,105.137,0.198939,2.0136,0.9794
+11,Africa,Atlas-Mid,109.547,0.117881,1.0974,0.9794
+11,North America,Atlas-Mid,102.669,0.089702,1.2456,0.9794
+11,South Asia,Atlas-High,125.631,0.372433,2.9778,0.9794
+11,Latin America,Atlas-High,121.093,0.29171,2.4522,0.9794
+11,Europe,Atlas-High,124.998,0.22955,1.7317,0.9794
+11,East Asia,Atlas-High,121.189,0.184435,2.0136,0.9794
+11,Africa,Atlas-High,128.352,0.138841,1.0974,0.9794
+11,North America,Atlas-High,123.944,0.173963,1.2456,0.9794
+11,South Asia,Boreal-Mid,105.939,0.165263,2.9778,0.8807
+11,Latin America,Boreal-Mid,106.835,0.159666,2.4522,0.8807
+11,Europe,Boreal-Mid,108.616,0.141087,1.7317,0.8807
+11,East Asia,Boreal-Mid,105.509,0.104633,2.0136,0.8807
+11,Africa,Boreal-Mid,105.314,0.058663,1.0974,0.8807
+11,North America,Boreal-Mid,111.998,0.156972,1.2456,0.8807
+11,South Asia,Boreal-High,121.379,0.2049,2.9778,0.8807
+11,Latin America,Boreal-High,124.315,0.23236,2.4522,0.8807
+11,Europe,Boreal-High,124.619,0.180663,1.7317,0.8807
+11,East Asia,Boreal-High,123.35,0.154083,2.0136,0.8807
+11,Africa,Boreal-High,120.898,0.07274,1.0974,0.8807
+11,North America,Boreal-High,124.931,0.115596,1.2456,0.8807
+11,South Asia,Cerro-Low,84.818,0.223018,2.9778,1.0646
+11,Latin America,Cerro-Low,90.019,0.250155,2.4522,1.0646
+11,East Asia,Cerro-Low,84.264,0.129025,2.0136,1.0646
+11,Africa,Cerro-Low,83.566,0.06392,1.0974,1.0646
+11,North America,Cerro-Low,90.541,0.127561,1.2456,1.0646
+11,South Asia,Cerro-Mid,99.176,0.201474,2.9778,1.0646
+11,Latin America,Cerro-Mid,101.922,0.236054,2.4522,1.0646
+11,Europe,Cerro-Mid,95.735,0.093632,1.7317,1.0646
+11,East Asia,Cerro-Mid,99.053,0.143454,2.0136,1.0646
+11,Africa,Cerro-Mid,97.947,0.068243,1.0974,1.0646
+11,North America,Cerro-Mid,99.781,0.093576,1.2456,1.0646
+11,South Asia,Dune-Low,82.451,0.290126,2.9778,1.1187
+11,Latin America,Dune-Low,79.206,0.126724,2.4522,1.1187
+11,Europe,Dune-Low,83.313,0.134567,1.7317,1.1187
+11,East Asia,Dune-Low,83.874,0.212535,2.0136,1.1187
+11,Africa,Dune-Low,80.842,0.082106,1.0974,1.1187
+12,South Asia,Atlas-Low,92.078,0.283584,3.1836,1.0159
+12,Latin America,Atlas-Low,91.302,0.188053,2.6755,1.0159
+12,Europe,Atlas-Low,98.263,0.195699,1.7906,1.0159
+12,East Asia,Atlas-Low,91.731,0.163238,1.9263,1.0159
+12,Africa,Atlas-Low,97.692,0.114119,1.013,1.0159
+12,North America,Atlas-Low,95.185,0.110584,1.2002,1.0159
+12,South Asia,Atlas-Mid,108.63,0.332352,3.1836,1.0159
+12,Latin America,Atlas-Mid,104.932,0.233495,2.6755,1.0159
+12,Europe,Atlas-Mid,109.424,0.16341,1.7906,1.0159
+12,East Asia,Atlas-Mid,105.948,0.188894,1.9263,1.0159
+12,Africa,Atlas-Mid,110.506,0.103287,1.013,1.0159
+12,North America,Atlas-Mid,103.583,0.065974,1.2002,1.0159
+12,South Asia,Atlas-High,124.985,0.314125,3.1836,1.0159
+12,Latin America,Atlas-High,123.161,0.265208,2.6755,1.0159
+12,Europe,Atlas-High,125.611,0.211211,1.7906,1.0159
+12,East Asia,Atlas-High,121.532,0.142938,1.9263,1.0159
+12,Africa,Atlas-High,129.225,0.12404,1.013,1.0159
+12,North America,Atlas-High,125.392,0.16001,1.2002,1.0159
+12,South Asia,Boreal-Mid,107.03,0.144699,3.1836,0.9106
+12,Latin America,Boreal-Mid,108.391,0.171405,2.6755,0.9106
+12,Europe,Boreal-Mid,108.892,0.101131,1.7906,0.9106
+12,East Asia,Boreal-Mid,108.837,0.125879,1.9263,0.9106
+12,Africa,Boreal-Mid,107.312,0.049885,1.013,0.9106
+12,North America,Boreal-Mid,112.386,0.12131,1.2002,0.9106
+12,South Asia,Boreal-High,125.697,0.25239,3.1836,0.9106
+12,Latin America,Boreal-High,127.037,0.240623,2.6755,0.9106
+12,Europe,Boreal-High,127.589,0.202165,1.7906,0.9106
+12,East Asia,Boreal-High,128.163,0.164125,1.9263,0.9106
+12,Africa,Boreal-High,124.11,0.071653,1.013,0.9106
+12,North America,Boreal-High,127.248,0.119095,1.2002,0.9106
+12,South Asia,Cerro-Low,83.936,0.232548,3.1836,1.0542
+12,Latin America,Cerro-Low,91.01,0.306539,2.6755,1.0542
+12,East Asia,Cerro-Low,84.322,0.132844,1.9263,1.0542
+12,Africa,Cerro-Low,82.559,0.050121,1.013,1.0542
+12,North America,Cerro-Low,91.004,0.125817,1.2002,1.0542
+12,South Asia,Cerro-Mid,98.846,0.232014,3.1836,1.0542
+12,Latin America,Cerro-Mid,102.793,0.285595,2.6755,1.0542
+12,Europe,Cerro-Mid,96.778,0.123777,1.7906,1.0542
+12,East Asia,Cerro-Mid,98.522,0.140636,1.9263,1.0542
+12,Africa,Cerro-Mid,97.74,0.068319,1.013,1.0542
+12,North America,Cerro-Mid,101.381,0.112835,1.2002,1.0542
+12,South Asia,Dune-Low,87.138,0.384618,3.1836,1.1619
+12,Latin America,Dune-Low,81.005,0.102718,2.6755,1.1619
+12,Europe,Dune-Low,87.434,0.176776,1.7906,1.1619
+12,East Asia,Dune-Low,84.793,0.166253,1.9263,1.1619
+12,Africa,Dune-Low,83.632,0.073311,1.013,1.1619
+13,South Asia,Atlas-Low,90.284,0.303065,3.3914,0.9813
+13,Latin America,Atlas-Low,88.547,0.168401,2.6425,0.9813
+13,Europe,Atlas-Low,101.258,0.218335,1.6638,0.9813
+13,East Asia,Atlas-Low,88.047,0.113475,1.8056,0.9813
+13,Africa,Atlas-Low,96.672,0.112439,1.0246,0.9813
+13,North America,Atlas-Low,94.457,0.12137,1.3016,0.9813
+13,South Asia,Atlas-Mid,105.915,0.337349,3.3914,0.9813
+13,Latin America,Atlas-Mid,101.338,0.250482,2.6425,0.9813
+13,Europe,Atlas-Mid,110.68,0.181323,1.6638,0.9813
+13,East Asia,Atlas-Mid,102.51,0.143268,1.8056,0.9813
+13,Africa,Atlas-Mid,109.891,0.11061,1.0246,0.9813
+13,North America,Atlas-Mid,102.944,0.1002,1.3016,0.9813
+13,South Asia,Atlas-High,121.417,0.334769,3.3914,0.9813
+13,Latin America,Atlas-High,118.25,0.225069,2.6425,0.9813
+13,Europe,Atlas-High,127.759,0.216828,1.6638,0.9813
+13,East Asia,Atlas-High,121.16,0.175444,1.8056,0.9813
+13,Africa,Atlas-High,130.061,0.133332,1.0246,0.9813
+13,North America,Atlas-High,123.105,0.166633,1.3016,0.9813
+13,South Asia,Boreal-Mid,112.248,0.186673,3.3914,0.9265
+13,Latin America,Boreal-Mid,113.521,0.218825,2.6425,0.9265
+13,Europe,Boreal-Mid,112.319,0.098527,1.6638,0.9265
+13,East Asia,Boreal-Mid,112.742,0.12467,1.8056,0.9265
+13,Africa,Boreal-Mid,109.719,0.04122,1.0246,0.9265
+13,North America,Boreal-Mid,113.762,0.107117,1.3016,0.9265
+13,South Asia,Boreal-High,130.869,0.286139,3.3914,0.9265
+13,Latin America,Boreal-High,133.261,0.254805,2.6425,0.9265
+13,Europe,Boreal-High,129.445,0.139898,1.6638,0.9265
+13,East Asia,Boreal-High,129.63,0.121552,1.8056,0.9265
+13,Africa,Boreal-High,126.293,0.055083,1.0246,0.9265
+13,North America,Boreal-High,130.652,0.115963,1.3016,0.9265
+13,South Asia,Cerro-Low,82.076,0.232892,3.3914,1.028
+13,Latin America,Cerro-Low,88.57,0.25733,2.6425,1.028
+13,East Asia,Cerro-Low,85.084,0.153863,1.8056,1.028
+13,Africa,Cerro-Low,81.642,0.05225,1.0246,1.028
+13,North America,Cerro-Low,89.175,0.12347,1.3016,1.028
+13,South Asia,Cerro-Mid,96.111,0.209391,3.3914,1.028
+13,Latin America,Cerro-Mid,101.049,0.336803,2.6425,1.028
+13,Europe,Cerro-Mid,94.107,0.092276,1.6638,1.028
+13,East Asia,Cerro-Mid,97.912,0.142837,1.8056,1.028
+13,Africa,Cerro-Mid,96.97,0.080446,1.0246,1.028
+13,North America,Cerro-Mid,100.4,0.142294,1.3016,1.028
+13,South Asia,Dune-Low,84.131,0.413251,3.3914,1.101
+13,Latin America,Dune-Low,78.931,0.127448,2.6425,1.101
+13,Europe,Dune-Low,82.352,0.13521,1.6638,1.101
+13,East Asia,Dune-Low,81.746,0.149295,1.8056,1.101
+13,Africa,Dune-Low,80.61,0.073273,1.0246,1.101
+14,South Asia,Atlas-Low,89.52,0.274475,3.2153,0.9618
+14,Latin America,Atlas-Low,88.542,0.224473,2.4424,0.9618
+14,Europe,Atlas-Low,97.739,0.196223,1.6213,0.9618
+14,East Asia,Atlas-Low,86.525,0.120096,1.9128,0.9618
+14,Africa,Atlas-Low,95.491,0.123597,1.1204,0.9618
+14,North America,Atlas-Low,93.841,0.131922,1.3601,0.9618
+14,South Asia,Atlas-Mid,104.665,0.334357,3.2153,0.9618
+14,Latin America,Atlas-Mid,99.12,0.179417,2.4424,0.9618
+14,Europe,Atlas-Mid,106.686,0.175811,1.6213,0.9618
+14,East Asia,Atlas-Mid,102.226,0.178437,1.9128,0.9618
+14,Africa,Atlas-Mid,106.375,0.115568,1.1204,0.9618
+14,North America,Atlas-Mid,101.324,0.119215,1.3601,0.9618
+14,South Asia,Atlas-High,120.537,0.354049,3.2153,0.9618
+14,Latin America,Atlas-High,115.159,0.153888,2.4424,0.9618
+14,Europe,Atlas-High,124.087,0.191058,1.6213,0.9618
+14,East Asia,Atlas-High,116.213,0.155469,1.9128,0.9618
+14,Africa,Atlas-High,127.215,0.130817,1.1204,0.9618
+14,North America,Atlas-High,118.683,0.143919,1.3601,0.9618
+14,South Asia,Boreal-Mid,108.877,0.163636,3.2153,0.871
+14,Latin America,Boreal-Mid,109.975,0.167887,2.4424,0.871
+14,Europe,Boreal-Mid,109.18,0.096071,1.6213,0.871
+14,East Asia,Boreal-Mid,108.912,0.086385,1.9128,0.871
+14,Africa,Boreal-Mid,108.624,0.07172,1.1204,0.871
+14,North America,Boreal-Mid,112.879,0.134638,1.3601,0.871
+14,South Asia,Boreal-High,126.908,0.282334,3.2153,0.871
+14,Latin America,Boreal-High,130.58,0.23292,2.4424,0.871
+14,Europe,Boreal-High,126.114,0.134218,1.6213,0.871
+14,East Asia,Boreal-High,129.26,0.19185,1.9128,0.871
+14,Africa,Boreal-High,123.424,0.056873,1.1204,0.871
+14,North America,Boreal-High,130.53,0.162965,1.3601,0.871
+14,South Asia,Cerro-Low,78.649,0.24352,3.2153,0.9375
+14,Latin America,Cerro-Low,83.579,0.243188,2.4424,0.9375
+14,East Asia,Cerro-Low,79.026,0.146446,1.9128,0.9375
+14,Africa,Cerro-Low,77.472,0.061689,1.1204,0.9375
+14,North America,Cerro-Low,83.419,0.112512,1.3601,0.9375
+14,South Asia,Cerro-Mid,91.825,0.255022,3.2153,0.9375
+14,Latin America,Cerro-Mid,97.209,0.323584,2.4424,0.9375
+14,Europe,Cerro-Mid,90.105,0.13343,1.6213,0.9375
+14,East Asia,Cerro-Mid,92.619,0.157954,1.9128,0.9375
+14,Africa,Cerro-Mid,91.171,0.091655,1.1204,0.9375
+14,North America,Cerro-Mid,93.653,0.15197,1.3601,0.9375
+14,South Asia,Dune-Low,80.982,0.34689,3.2153,0.9753
+14,Latin America,Dune-Low,76.449,0.121267,2.4424,0.9753
+14,Europe,Dune-Low,81.008,0.142965,1.6213,0.9753
+14,East Asia,Dune-Low,82.127,0.225536,1.9128,0.9753
+14,Africa,Dune-Low,77.671,0.068336,1.1204,0.9753
+15,South Asia,Atlas-Low,88.271,0.208164,3.0374,0.9448
+15,Latin America,Atlas-Low,84.641,0.167732,2.5012,0.9448
+15,Europe,Atlas-Low,96.673,0.197433,1.7664,0.9448
+15,East Asia,Atlas-Low,86.392,0.150293,2.0539,0.9448
+15,Africa,Atlas-Low,95.473,0.138991,1.1193,0.9448
+15,North America,Atlas-Low,92.645,0.122532,1.2705,0.9448
+15,South Asia,Atlas-Mid,104.709,0.34038,3.0374,0.9448
+15,Latin America,Atlas-Mid,95.968,0.141885,2.5012,0.9448
+15,Europe,Atlas-Mid,106.283,0.205977,1.7664,0.9448
+15,East Asia,Atlas-Mid,99.377,0.147625,2.0539,0.9448
+15,Africa,Atlas-Mid,105.913,0.112171,1.1193,0.9448
+15,North America,Atlas-Mid,101.917,0.136739,1.2705,0.9448
+15,South Asia,Atlas-High,122.015,0.389729,3.0374,0.9448
+15,Latin America,Atlas-High,113.331,0.191867,2.5012,0.9448
+15,Europe,Atlas-High,123.475,0.208669,1.7664,0.9448
+15,East Asia,Atlas-High,117.022,0.211244,2.0539,0.9448
+15,Africa,Atlas-High,124.253,0.132326,1.1193,0.9448
+15,North America,Atlas-High,118.168,0.126147,1.2705,0.9448
+15,South Asia,Boreal-Mid,104.75,0.150644,3.0374,0.9615
+15,Latin America,Boreal-Mid,107.297,0.192912,2.5012,0.9615
+15,Europe,Boreal-Mid,106.96,0.139369,1.7664,0.9615
+15,East Asia,Boreal-Mid,105.589,0.102474,2.0539,0.9615
+15,Africa,Boreal-Mid,104.411,0.049,1.1193,0.9615
+15,North America,Boreal-Mid,111.22,0.155141,1.2705,0.9615
+15,South Asia,Boreal-High,122.782,0.22805,3.0374,0.9615
+15,Latin America,Boreal-High,127.941,0.235038,2.5012,0.9615
+15,Europe,Boreal-High,124.034,0.137235,1.7664,0.9615
+15,East Asia,Boreal-High,124.927,0.180744,2.0539,0.9615
+15,Africa,Boreal-High,122.332,0.072589,1.1193,0.9615
+15,North America,Boreal-High,128.775,0.128551,1.2705,0.9615
+15,South Asia,Cerro-Low,79.867,0.249839,3.0374,0.947
+15,Latin America,Cerro-Low,87.028,0.313216,2.5012,0.947
+15,East Asia,Cerro-Low,80.351,0.158793,2.0539,0.947
+15,Africa,Cerro-Low,78.498,0.069005,1.1193,0.947
+15,North America,Cerro-Low,84.181,0.130727,1.2705,0.947
+15,South Asia,Cerro-Mid,92.27,0.228589,3.0374,0.947
+15,Latin America,Cerro-Mid,99.222,0.342063,2.5012,0.947
+15,Europe,Cerro-Mid,89.005,0.113957,1.7664,0.947
+15,East Asia,Cerro-Mid,94.922,0.197888,2.0539,0.947
+15,Africa,Cerro-Mid,92.368,0.08689,1.1193,0.947
+15,North America,Cerro-Mid,91.499,0.097271,1.2705,0.947
+15,South Asia,Dune-Low,79.494,0.336684,3.0374,1.0298
+15,Latin America,Dune-Low,75.057,0.136806,2.5012,1.0298
+15,Europe,Dune-Low,79.521,0.156772,1.7664,1.0298
+15,East Asia,Dune-Low,78.909,0.208562,2.0539,1.0298
+15,Africa,Dune-Low,75.003,0.060687,1.1193,1.0298
+16,South Asia,Atlas-Low,88.579,0.21884,3.2473,0.9456
+16,Latin America,Atlas-Low,84.656,0.169635,2.729,0.9456
+16,Europe,Atlas-Low,97.525,0.237749,1.8264,0.9456
+16,East Asia,Atlas-Low,85.567,0.112569,1.9649,0.9456
+16,Africa,Atlas-Low,90.881,0.096456,1.0333,0.9456
+16,North America,Atlas-Low,92.096,0.119464,1.2242,0.9456
+16,South Asia,Atlas-Mid,102.795,0.360659,3.2473,0.9456
+16,Latin America,Atlas-Mid,97.24,0.184536,2.729,0.9456
+16,Europe,Atlas-Mid,106.372,0.218563,1.8264,0.9456
+16,East Asia,Atlas-Mid,99.681,0.142178,1.9649,0.9456
+16,Africa,Atlas-Mid,103.431,0.09643,1.0333,0.9456
+16,North America,Atlas-Mid,100.884,0.130807,1.2242,0.9456
+16,South Asia,Atlas-High,121.654,0.388876,3.2473,0.9456
+16,Latin America,Atlas-High,114.857,0.228642,2.729,0.9456
+16,Europe,Atlas-High,121.102,0.176624,1.8264,0.9456
+16,East Asia,Atlas-High,119.765,0.226636,1.9649,0.9456
+16,Africa,Atlas-High,121.458,0.120373,1.0333,0.9456
+16,North America,Atlas-High,115.829,0.09885,1.2242,0.9456
+16,South Asia,Boreal-Mid,104.754,0.171895,3.2473,0.9843
+16,Latin America,Boreal-Mid,106.651,0.179688,2.729,0.9843
+16,Europe,Boreal-Mid,108.408,0.164705,1.8264,0.9843
+16,East Asia,Boreal-Mid,105.542,0.104519,1.9649,0.9843
+16,Africa,Boreal-Mid,105.481,0.052459,1.0333,0.9843
+16,North America,Boreal-Mid,110.988,0.144634,1.2242,0.9843
+16,South Asia,Boreal-High,123.557,0.23333,3.2473,0.9843
+16,Latin America,Boreal-High,127.072,0.232959,2.729,0.9843
+16,Europe,Boreal-High,127.21,0.167298,1.8264,0.9843
+16,East Asia,Boreal-High,123.449,0.131885,1.9649,0.9843
+16,Africa,Boreal-High,123.841,0.07454,1.0333,0.9843
+16,North America,Boreal-High,131.296,0.136264,1.2242,0.9843
+16,South Asia,Cerro-Low,77.669,0.19523,3.2473,0.9085
+16,Latin America,Cerro-Low,87.714,0.405245,2.729,0.9085
+16,East Asia,Cerro-Low,79.786,0.186125,1.9649,0.9085
+16,Africa,Cerro-Low,76.763,0.066562,1.0333,0.9085
+16,North America,Cerro-Low,82.344,0.114185,1.2242,0.9085
+16,South Asia,Cerro-Mid,92.363,0.388767,3.2473,0.9085
+16,Latin America,Cerro-Mid,97.172,0.343658,2.729,0.9085
+16,Europe,Cerro-Mid,86.051,0.11151,1.8264,0.9085
+16,East Asia,Cerro-Mid,93.121,0.195865,1.9649,0.9085
+16,Africa,Cerro-Mid,89.987,0.085371,1.0333,0.9085
+16,North America,Cerro-Mid,90.252,0.115165,1.2242,0.9085
+16,South Asia,Dune-Low,75.482,0.340718,3.2473,0.9333
+16,Latin America,Dune-Low,69.882,0.123898,2.729,0.9333
+16,Europe,Dune-Low,74.498,0.160434,1.8264,0.9333
+16,East Asia,Dune-Low,75.293,0.216676,1.9649,0.9333
+16,Africa,Dune-Low,72.782,0.080518,1.0333,0.9333
+17,South Asia,Atlas-Low,89.61,0.279404,3.4592,0.9106
+17,Latin America,Atlas-Low,86.598,0.184589,2.6954,0.9106
+17,Europe,Atlas-Low,98.524,0.22818,1.697,0.9106
+17,East Asia,Atlas-Low,84.972,0.111879,1.8417,0.9106
+17,Africa,Atlas-Low,92.015,0.10665,1.0451,0.9106
+17,North America,Atlas-Low,91.141,0.118301,1.3276,0.9106
+17,South Asia,Atlas-Mid,102.513,0.342186,3.4592,0.9106
+17,Latin America,Atlas-Mid,99.054,0.195135,2.6954,0.9106
+17,Europe,Atlas-Mid,105.081,0.187867,1.697,0.9106
+17,East Asia,Atlas-Mid,97.783,0.131902,1.8417,0.9106
+17,Africa,Atlas-Mid,101.816,0.089052,1.0451,0.9106
+17,North America,Atlas-Mid,100.855,0.140472,1.3276,0.9106
+17,South Asia,Atlas-High,120.911,0.4759,3.4592,0.9106
+17,Latin America,Atlas-High,119.255,0.36552,2.6954,0.9106
+17,Europe,Atlas-High,121.445,0.174754,1.697,0.9106
+17,East Asia,Atlas-High,116.483,0.19564,1.8417,0.9106
+17,Africa,Atlas-High,120.483,0.128049,1.0451,0.9106
+17,North America,Atlas-High,115.898,0.13466,1.3276,0.9106
+17,South Asia,Boreal-Mid,103.076,0.152672,3.4592,0.9995
+17,Latin America,Boreal-Mid,103.019,0.115696,2.6954,0.9995
+17,Europe,Boreal-Mid,107.086,0.160933,1.697,0.9995
+17,East Asia,Boreal-Mid,106.044,0.13849,1.8417,0.9995
+17,Africa,Boreal-Mid,105.608,0.070319,1.0451,0.9995
+17,North America,Boreal-Mid,110.066,0.162825,1.3276,0.9995
+17,South Asia,Boreal-High,122.31,0.286962,3.4592,0.9995
+17,Latin America,Boreal-High,121.902,0.204018,2.6954,0.9995
+17,Europe,Boreal-High,124.549,0.136249,1.697,0.9995
+17,East Asia,Boreal-High,123.744,0.131152,1.8417,0.9995
+17,Africa,Boreal-High,123.011,0.077053,1.0451,0.9995
+17,North America,Boreal-High,128.769,0.158241,1.3276,0.9995
+17,South Asia,Cerro-Low,79.347,0.169418,3.4592,0.9702
+17,Latin America,Cerro-Low,88.04,0.351603,2.6954,0.9702
+17,East Asia,Cerro-Low,81.894,0.149018,1.8417,0.9702
+17,Africa,Cerro-Low,79.599,0.06339,1.0451,0.9702
+17,North America,Cerro-Low,85.782,0.135389,1.3276,0.9702
+17,South Asia,Cerro-Mid,95.844,0.373649,3.4592,0.9702
+17,Latin America,Cerro-Mid,100.767,0.310985,2.6954,0.9702
+17,Europe,Cerro-Mid,89.938,0.10147,1.697,0.9702
+17,East Asia,Cerro-Mid,95.204,0.174913,1.8417,0.9702
+17,Africa,Cerro-Mid,93.204,0.074584,1.0451,0.9702
+17,North America,Cerro-Mid,92.7,0.092938,1.3276,0.9702
+17,South Asia,Dune-Low,81.086,0.379489,3.4592,0.9058
+17,Latin America,Dune-Low,75.946,0.147597,2.6954,0.9058
+17,Europe,Dune-Low,78.869,0.139074,1.697,0.9058
+17,East Asia,Dune-Low,80.285,0.193326,1.8417,0.9058
+17,Africa,Dune-Low,76.808,0.06436,1.0451,0.9058
+18,South Asia,Atlas-Low,91.187,0.266988,3.2796,0.9664
+18,Latin America,Atlas-Low,88.885,0.218432,2.4912,0.9664
+18,Europe,Atlas-Low,103.007,0.284939,1.6537,0.9664
+18,East Asia,Atlas-Low,88.304,0.135082,1.9511,0.9664
+18,Africa,Atlas-Low,93.315,0.113946,1.1428,0.9664
+18,North America,Atlas-Low,92.391,0.116178,1.3873,0.9664
+18,South Asia,Atlas-Mid,105.331,0.351519,3.2796,0.9664
+18,Latin America,Atlas-Mid,99.861,0.147415,2.4912,0.9664
+18,Europe,Atlas-Mid,108.231,0.175368,1.6537,0.9664
+18,East Asia,Atlas-Mid,101.819,0.148591,1.9511,0.9664
+18,Africa,Atlas-Mid,104.451,0.093824,1.1428,0.9664
+18,North America,Atlas-Mid,100.264,0.114725,1.3873,0.9664
+18,South Asia,Atlas-High,123.809,0.411907,3.2796,0.9664
+18,Latin America,Atlas-High,121.858,0.271075,2.4912,0.9664
+18,Europe,Atlas-High,122.031,0.134874,1.6537,0.9664
+18,East Asia,Atlas-High,121.808,0.21992,1.9511,0.9664
+18,Africa,Atlas-High,125.373,0.158542,1.1428,0.9664
+18,North America,Atlas-High,118.136,0.130235,1.3873,0.9664
+18,South Asia,Boreal-Mid,104.495,0.189227,3.2796,1.0061
+18,Latin America,Boreal-Mid,103.261,0.110771,2.4912,1.0061
+18,Europe,Boreal-Mid,107.576,0.134739,1.6537,1.0061
+18,East Asia,Boreal-Mid,106.195,0.137491,1.9511,1.0061
+18,Africa,Boreal-Mid,107.026,0.088141,1.1428,1.0061
+18,North America,Boreal-Mid,110.874,0.185352,1.3873,1.0061
+18,South Asia,Boreal-High,123.418,0.267942,3.2796,1.0061
+18,Latin America,Boreal-High,122.336,0.160545,2.4912,1.0061
+18,Europe,Boreal-High,127.867,0.163042,1.6537,1.0061
+18,East Asia,Boreal-High,123.224,0.128545,1.9511,1.0061
+18,Africa,Boreal-High,122.921,0.08071,1.1428,1.0061
+18,North America,Boreal-High,129.321,0.14594,1.3873,1.0061
+18,South Asia,Cerro-Low,79.422,0.159071,3.2796,0.9771
+18,Latin America,Cerro-Low,86.763,0.284049,2.4912,0.9771
+18,East Asia,Cerro-Low,80.222,0.127402,1.9511,0.9771
+18,Africa,Cerro-Low,79.008,0.064827,1.1428,0.9771
+18,North America,Cerro-Low,86.104,0.119029,1.3873,0.9771
+18,South Asia,Cerro-Mid,94.785,0.328439,3.2796,0.9771
+18,Latin America,Cerro-Mid,103.194,0.366512,2.4912,0.9771
+18,Europe,Cerro-Mid,90.246,0.085774,1.6537,0.9771
+18,East Asia,Cerro-Mid,94.01,0.149386,1.9511,0.9771
+18,Africa,Cerro-Mid,92.564,0.075088,1.1428,0.9771
+18,North America,Cerro-Mid,95.304,0.147801,1.3873,0.9771
+18,South Asia,Dune-Low,77.067,0.35389,3.2796,0.9308
+18,Latin America,Dune-Low,72.592,0.166581,2.4912,0.9308
+18,Europe,Dune-Low,73.341,0.115995,1.6537,0.9308
+18,East Asia,Dune-Low,76.671,0.211518,1.9511,0.9308
+18,Africa,Dune-Low,74.325,0.091769,1.1428,0.9308
+19,South Asia,Atlas-Low,87.779,0.251074,3.0981,0.9266
+19,Latin America,Atlas-Low,86.543,0.20208,2.5512,0.9266
+19,Europe,Atlas-Low,101.837,0.29237,1.8017,0.9266
+19,East Asia,Atlas-Low,86.499,0.16164,2.095,0.9266
+19,Africa,Atlas-Low,89.771,0.102274,1.1417,0.9266
+19,North America,Atlas-Low,90.735,0.105027,1.2959,0.9266
+19,South Asia,Atlas-Mid,102.615,0.350174,3.0981,0.9266
+19,Latin America,Atlas-Mid,100.42,0.239053,2.5512,0.9266
+19,Europe,Atlas-Mid,105.358,0.209827,1.8017,0.9266
+19,East Asia,Atlas-Mid,98.728,0.150696,2.095,0.9266
+19,Africa,Atlas-Mid,102.856,0.11088,1.1417,0.9266
+19,North America,Atlas-Mid,98.609,0.117235,1.2959,0.9266
+19,South Asia,Atlas-High,117.17,0.325284,3.0981,0.9266
+19,Latin America,Atlas-High,120.198,0.289502,2.5512,0.9266
+19,Europe,Atlas-High,120.995,0.167819,1.8017,0.9266
+19,East Asia,Atlas-High,117.868,0.237209,2.095,0.9266
+19,Africa,Atlas-High,121.635,0.146126,1.1417,0.9266
+19,North America,Atlas-High,117.741,0.148881,1.2959,0.9266
+19,South Asia,Boreal-Mid,104.275,0.171209,3.0981,0.9936
+19,Latin America,Boreal-Mid,102.22,0.107756,2.5512,0.9936
+19,Europe,Boreal-Mid,107.585,0.173281,1.8017,0.9936
+19,East Asia,Boreal-Mid,105.313,0.143922,2.095,0.9936
+19,Africa,Boreal-Mid,103.708,0.062927,1.1417,0.9936
+19,North America,Boreal-Mid,110.398,0.187955,1.2959,0.9936
+19,South Asia,Boreal-High,124.748,0.295602,3.0981,0.9936
+19,Latin America,Boreal-High,120.791,0.154031,2.5512,0.9936
+19,Europe,Boreal-High,125.617,0.156617,1.8017,0.9936
+19,East Asia,Boreal-High,122.761,0.149664,2.095,0.9936
+19,Africa,Boreal-High,121.361,0.074372,1.1417,0.9936
+19,North America,Boreal-High,126.238,0.110981,1.2959,0.9936
+19,South Asia,Cerro-Low,78.069,0.14325,3.0981,0.9676
+19,Latin America,Cerro-Low,89.016,0.375846,2.5512,0.9676
+19,East Asia,Cerro-Low,79.73,0.134303,2.095,0.9676
+19,Africa,Cerro-Low,79.831,0.074252,1.1417,0.9676
+19,North America,Cerro-Low,85.572,0.116386,1.2959,0.9676
+19,South Asia,Cerro-Mid,92.843,0.251181,3.0981,0.9676
+19,Latin America,Cerro-Mid,99.83,0.298193,2.5512,0.9676
+19,Europe,Cerro-Mid,89.672,0.107072,1.8017,0.9676
+19,East Asia,Cerro-Mid,94.056,0.178406,2.095,0.9676
+19,Africa,Cerro-Mid,93.401,0.091293,1.1417,0.9676
+19,North America,Cerro-Mid,93.627,0.117633,1.2959,0.9676
+19,South Asia,Dune-Low,81.898,0.362271,3.0981,0.9908
+19,Latin America,Dune-Low,74.871,0.136989,2.5512,0.9908
+19,Europe,Dune-Low,76.445,0.116428,1.8017,0.9908
+19,East Asia,Dune-Low,79.74,0.207771,2.095,0.9908
+19,Africa,Dune-Low,77.902,0.090505,1.1417,0.9908
+20,South Asia,Atlas-Low,92.432,0.308428,3.3122,0.9918
+20,Latin America,Atlas-Low,90.877,0.243508,2.7836,0.9918
+20,Europe,Atlas-Low,101.482,0.235539,1.8629,0.9918
+20,East Asia,Atlas-Low,88.84,0.134883,2.0042,0.9918
+20,Africa,Atlas-Low,92.577,0.090088,1.0539,0.9918
+20,North America,Atlas-Low,95.024,0.117544,1.2487,0.9918
+20,South Asia,Atlas-Mid,108.708,0.381728,3.3122,0.9918
+20,Latin America,Atlas-Mid,104.332,0.220203,2.7836,0.9918
+20,Europe,Atlas-Mid,107.685,0.196786,1.8629,0.9918
+20,East Asia,Atlas-Mid,102.817,0.154535,2.0042,0.9918
+20,Africa,Atlas-Mid,107.645,0.106951,1.0539,0.9918
+20,North America,Atlas-Mid,102.637,0.095188,1.2487,0.9918
+20,South Asia,Atlas-High,123.462,0.330173,3.3122,0.9918
+20,Latin America,Atlas-High,124.081,0.317486,2.7836,0.9918
+20,Europe,Atlas-High,125.727,0.186783,1.8629,0.9918
+20,East Asia,Atlas-High,120.785,0.191011,2.0042,0.9918
+20,Africa,Atlas-High,124.2,0.116005,1.0539,0.9918
+20,North America,Atlas-High,122.012,0.141426,1.2487,0.9918
+20,South Asia,Boreal-Mid,108.258,0.177245,3.3122,0.9257
+20,Latin America,Boreal-Mid,108.041,0.144725,2.7836,0.9257
+20,Europe,Boreal-Mid,111.48,0.181623,1.8629,0.9257
+20,East Asia,Boreal-Mid,109.305,0.128553,2.0042,0.9257
+20,Africa,Boreal-Mid,107.969,0.048997,1.0539,0.9257
+20,North America,Boreal-Mid,113.599,0.147308,1.2487,0.9257
+20,South Asia,Boreal-High,127.214,0.283235,3.3122,0.9257
+20,Latin America,Boreal-High,125.503,0.201586,2.7836,0.9257
+20,Europe,Boreal-High,127.683,0.148,1.8629,0.9257
+20,East Asia,Boreal-High,127.457,0.165733,2.0042,0.9257
+20,Africa,Boreal-High,126.137,0.083461,1.0539,0.9257
+20,North America,Boreal-High,129.97,0.128838,1.2487,0.9257
+20,South Asia,Cerro-Low,81.438,0.199719,3.3122,1.0276
+20,Latin America,Cerro-Low,89.77,0.370262,2.7836,1.0276
+20,East Asia,Cerro-Low,83.617,0.147969,2.0042,1.0276
+20,Africa,Cerro-Low,80.965,0.048806,1.0539,1.0276
+20,North America,Cerro-Low,87.941,0.108109,1.2487,1.0276
+20,South Asia,Cerro-Mid,95.636,0.218517,3.3122,1.0276
+20,Latin America,Cerro-Mid,101.375,0.26549,2.7836,1.0276
+20,Europe,Cerro-Mid,94.003,0.120007,1.8629,1.0276
+20,East Asia,Cerro-Mid,98.341,0.170984,2.0042,1.0276
+20,Africa,Cerro-Mid,95.991,0.072576,1.0539,1.0276
+20,North America,Cerro-Mid,98.52,0.123061,1.2487,1.0276
+20,South Asia,Dune-Low,86.332,0.372238,3.3122,1.0528
+20,Latin America,Dune-Low,80.645,0.136883,2.7836,1.0528
+20,Europe,Dune-Low,83.604,0.126947,1.8629,1.0528
+20,East Asia,Dune-Low,85.526,0.190784,2.0042,1.0528
+20,Africa,Dune-Low,85.85,0.105712,1.0539,1.0528
+21,South Asia,Atlas-Low,94.061,0.306199,3.5284,1.0553
+21,Latin America,Atlas-Low,93.311,0.233257,2.7493,1.0553
+21,Europe,Atlas-Low,102.741,0.249304,1.731,1.0553
+21,East Asia,Atlas-Low,92.122,0.129428,1.8786,1.0553
+21,Africa,Atlas-Low,96.21,0.099417,1.066,1.0553
+21,North America,Atlas-Low,97.136,0.127512,1.3541,1.0553
+21,South Asia,Atlas-Mid,110.604,0.361078,3.5284,1.0553
+21,Latin America,Atlas-Mid,106.454,0.19892,2.7493,1.0553
+21,Europe,Atlas-Mid,110.638,0.164426,1.731,1.0553
+21,East Asia,Atlas-Mid,104.863,0.10595,1.8786,1.0553
+21,Africa,Atlas-Mid,111.207,0.10943,1.066,1.0553
+21,North America,Atlas-Mid,107.007,0.116289,1.3541,1.0553
+21,South Asia,Atlas-High,126.955,0.337232,3.5284,1.0553
+21,Latin America,Atlas-High,126.933,0.264964,2.7493,1.0553
+21,Europe,Atlas-High,128.739,0.151383,1.731,1.0553
+21,East Asia,Atlas-High,124.609,0.178205,1.8786,1.0553
+21,Africa,Atlas-High,129.194,0.104698,1.066,1.0553
+21,North America,Atlas-High,125.994,0.116349,1.3541,1.0553
+21,South Asia,Boreal-Mid,108.722,0.153485,3.5284,1.0218
+21,Latin America,Boreal-Mid,108.327,0.135892,2.7493,1.0218
+21,Europe,Boreal-Mid,113.407,0.171011,1.731,1.0218
+21,East Asia,Boreal-Mid,111.626,0.141699,1.8786,1.0218
+21,Africa,Boreal-Mid,108.911,0.058185,1.066,1.0218
+21,North America,Boreal-Mid,111.695,0.131777,1.3541,1.0218
+21,South Asia,Boreal-High,129.812,0.306029,3.5284,1.0218
+21,Latin America,Boreal-High,128.566,0.195893,2.7493,1.0218
+21,Europe,Boreal-High,131.504,0.143674,1.731,1.0218
+21,East Asia,Boreal-High,131.298,0.186785,1.8786,1.0218
+21,Africa,Boreal-High,128.335,0.071284,1.066,1.0218
+21,North America,Boreal-High,131.823,0.121388,1.3541,1.0218
+21,South Asia,Cerro-Low,84.603,0.312469,3.5284,1.0409
+21,Latin America,Cerro-Low,91.133,0.362964,2.7493,1.0409
+21,East Asia,Cerro-Low,82.837,0.095442,1.8786,1.0409
+21,Africa,Cerro-Low,82.532,0.058534,1.066,1.0409
+21,North America,Cerro-Low,90.808,0.13947,1.3541,1.0409
+21,South Asia,Cerro-Mid,98.577,0.254306,3.5284,1.0409
+21,Latin America,Cerro-Mid,105.015,0.338974,2.7493,1.0409
+21,Europe,Cerro-Mid,94.561,0.101927,1.731,1.0409
+21,East Asia,Cerro-Mid,99.974,0.184234,1.8786,1.0409
+21,Africa,Cerro-Mid,97.315,0.079006,1.066,1.0409
+21,North America,Cerro-Mid,101.798,0.167732,1.3541,1.0409
+21,South Asia,Dune-Low,79.696,0.348291,3.5284,1.0484
+21,Latin America,Dune-Low,75.632,0.130949,2.7493,1.0484
+21,Europe,Dune-Low,79.811,0.151584,1.731,1.0484
+21,East Asia,Dune-Low,81.986,0.208862,1.8786,1.0484
+21,Africa,Dune-Low,79.482,0.092259,1.066,1.0484
+22,South Asia,Atlas-Low,94.325,0.346376,3.3452,1.0155
+22,Latin America,Atlas-Low,90.653,0.200401,2.541,1.0155
+22,Europe,Atlas-Low,101.075,0.211543,1.6868,1.0155
+22,East Asia,Atlas-Low,90.536,0.143678,1.9901,1.0155
+22,Africa,Atlas-Low,94.558,0.109653,1.1657,1.0155
+22,North America,Atlas-Low,94.723,0.113903,1.4151,1.0155
+22,South Asia,Atlas-Mid,109.62,0.340086,3.3452,1.0155
+22,Latin America,Atlas-Mid,103.007,0.172677,2.541,1.0155
+22,Europe,Atlas-Mid,108.306,0.168318,1.6868,1.0155
+22,East Asia,Atlas-Mid,101.832,0.102016,1.9901,1.0155
+22,Africa,Atlas-Mid,110.8,0.141557,1.1657,1.0155
+22,North America,Atlas-Mid,105.368,0.158053,1.4151,1.0155
+22,South Asia,Atlas-High,127.925,0.415096,3.3452,1.0155
+22,Latin America,Atlas-High,122.685,0.23228,2.541,1.0155
+22,Europe,Atlas-High,125.215,0.157474,1.6868,1.0155
+22,East Asia,Atlas-High,121.407,0.214548,1.9901,1.0155
+22,Africa,Atlas-High,125.873,0.111397,1.1657,1.0155
+22,North America,Atlas-High,122.879,0.128893,1.4151,1.0155
+22,South Asia,Boreal-Mid,106.463,0.173918,3.3452,1.0156
+22,Latin America,Boreal-Mid,105.249,0.108745,2.541,1.0156
+22,Europe,Boreal-Mid,111.757,0.192272,1.6868,1.0156
+22,East Asia,Boreal-Mid,110.741,0.169938,1.9901,1.0156
+22,Africa,Boreal-Mid,105.24,0.046045,1.1657,1.0156
+22,North America,Boreal-Mid,107.288,0.10427,1.4151,1.0156
+22,South Asia,Boreal-High,125.031,0.245556,3.3452,1.0156
+22,Latin America,Boreal-High,126.467,0.201924,2.541,1.0156
+22,Europe,Boreal-High,129.837,0.1602,1.6868,1.0156
+22,East Asia,Boreal-High,129.399,0.207995,1.9901,1.0156
+22,Africa,Boreal-High,125.947,0.087231,1.1657,1.0156
+22,North America,Boreal-High,128.622,0.129027,1.4151,1.0156
+22,South Asia,Cerro-Low,84.629,0.266434,3.3452,1.0589
+22,Latin America,Cerro-Low,90.531,0.26877,2.541,1.0589
+22,East Asia,Cerro-Low,82.886,0.085459,1.9901,1.0589
+22,Africa,Cerro-Low,82.468,0.055735,1.1657,1.0589
+22,North America,Cerro-Low,92.391,0.127159,1.4151,1.0589
+22,South Asia,Cerro-Mid,98.553,0.212478,3.3452,1.0589
+22,Latin America,Cerro-Mid,107.717,0.386581,2.541,1.0589
+22,Europe,Cerro-Mid,95.228,0.091925,1.6868,1.0589
+22,East Asia,Cerro-Mid,100.086,0.181934,1.9901,1.0589
+22,Africa,Cerro-Mid,97.929,0.082742,1.1657,1.0589
+22,North America,Cerro-Mid,103.832,0.198389,1.4151,1.0589
+22,South Asia,Dune-Low,77.509,0.315205,3.3452,1.0205
+22,Latin America,Dune-Low,75.467,0.162955,2.541,1.0205
+22,Europe,Dune-Low,77.739,0.13573,1.6868,1.0205
+22,East Asia,Dune-Low,80.324,0.203394,1.9901,1.0205
+22,Africa,Dune-Low,78.922,0.114881,1.1657,1.0205
+23,South Asia,Atlas-Low,94.07,0.322365,3.1601,0.9981
+23,Latin America,Atlas-Low,90.289,0.209018,2.6023,0.9981
+23,Europe,Atlas-Low,102.073,0.259326,1.8377,0.9981
+23,East Asia,Atlas-Low,87.303,0.099676,2.1369,0.9981
+23,Africa,Atlas-Low,95.998,0.136685,1.1645,0.9981
+23,North America,Atlas-Low,92.175,0.094855,1.3218,0.9981
+23,South Asia,Atlas-Mid,108.627,0.325906,3.1601,0.9981
+23,Latin America,Atlas-Mid,103.058,0.208396,2.6023,0.9981
+23,Europe,Atlas-Mid,109.145,0.197814,1.8377,0.9981
+23,East Asia,Atlas-Mid,101.045,0.132458,2.1369,0.9981
+23,Africa,Atlas-Mid,108.609,0.122154,1.1645,0.9981
+23,North America,Atlas-Mid,103.893,0.128147,1.3218,0.9981
+23,South Asia,Atlas-High,125.936,0.383391,3.1601,0.9981
+23,Latin America,Atlas-High,124.714,0.260589,2.6023,0.9981
+23,Europe,Atlas-High,125.14,0.172818,1.8377,0.9981
+23,East Asia,Atlas-High,121.234,0.234859,2.1369,0.9981
+23,Africa,Atlas-High,123.891,0.105791,1.1645,0.9981
+23,North America,Atlas-High,121.871,0.134117,1.3218,0.9981
+23,South Asia,Boreal-Mid,109.356,0.162351,3.1601,1.0961
+23,Latin America,Boreal-Mid,108.061,0.124587,2.6023,1.0961
+23,Europe,Boreal-Mid,112.884,0.161909,1.8377,1.0961
+23,East Asia,Boreal-Mid,111.613,0.167134,2.1369,1.0961
+23,Africa,Boreal-Mid,109.795,0.06197,1.1645,1.0961
+23,North America,Boreal-Mid,110.772,0.099376,1.3218,1.0961
+23,South Asia,Boreal-High,129.9,0.246743,3.1601,1.0961
+23,Latin America,Boreal-High,128.363,0.149079,2.6023,1.0961
+23,Europe,Boreal-High,133.04,0.164183,1.8377,1.0961
+23,East Asia,Boreal-High,131.234,0.175112,2.1369,1.0961
+23,Africa,Boreal-High,131.536,0.099343,1.1645,1.0961
+23,North America,Boreal-High,132.267,0.121041,1.3218,1.0961
+23,South Asia,Cerro-Low,83.497,0.207557,3.1601,1.0477
+23,Latin America,Cerro-Low,91.308,0.312517,2.6023,1.0477
+23,East Asia,Cerro-Low,83.479,0.111873,2.1369,1.0477
+23,Africa,Cerro-Low,80.503,0.034548,1.1645,1.0477
+23,North America,Cerro-Low,93.292,0.141327,1.3218,1.0477
+23,South Asia,Cerro-Mid,97.869,0.223155,3.1601,1.0477
+23,Latin America,Cerro-Mid,106.11,0.355335,2.6023,1.0477
+23,Europe,Cerro-Mid,94.678,0.098786,1.8377,1.0477
+23,East Asia,Cerro-Mid,100.407,0.224014,2.1369,1.0477
+23,Africa,Cerro-Mid,96.597,0.079162,1.1645,1.0477
+23,North America,Cerro-Mid,102.497,0.162543,1.3218,1.0477
+23,South Asia,Dune-Low,76.868,0.273119,3.1601,1.0116
+23,Latin America,Dune-Low,74.296,0.146989,2.6023,1.0116
+23,Europe,Dune-Low,76.674,0.136272,1.8377,1.0116
+23,East Asia,Dune-Low,82.25,0.272019,2.1369,1.0116
+23,Africa,Dune-Low,78.011,0.115176,1.1645,1.0116
+24,South Asia,Atlas-Low,96.359,0.356323,3.3785,0.9395
+24,Latin America,Atlas-Low,91.413,0.180732,2.8392,0.9395
+24,Europe,Atlas-Low,101.04,0.228746,1.9002,0.9395
+24,East Asia,Atlas-Low,90.522,0.13932,2.0443,0.9395
+24,Africa,Atlas-Low,95.972,0.122118,1.075,0.9395
+24,North America,Atlas-Low,94.994,0.114322,1.2736,0.9395
+24,South Asia,Atlas-Mid,109.621,0.390072,3.3785,0.9395
+24,Latin America,Atlas-Mid,104.332,0.266118,2.8392,0.9395
+24,Europe,Atlas-Mid,109.606,0.210006,1.9002,0.9395
+24,East Asia,Atlas-Mid,103.294,0.136647,2.0443,0.9395
+24,Africa,Atlas-Mid,106.19,0.094565,1.075,0.9395
+24,North America,Atlas-Mid,102.963,0.109285,1.2736,0.9395
+24,South Asia,Atlas-High,127.072,0.389725,3.3785,0.9395
+24,Latin America,Atlas-High,125.347,0.318981,2.8392,0.9395
+24,Europe,Atlas-High,124.548,0.20539,1.9002,0.9395
+24,East Asia,Atlas-High,122.379,0.235906,2.0443,0.9395
+24,Africa,Atlas-High,123.8,0.104584,1.075,0.9395
+24,North America,Atlas-High,119.836,0.107827,1.2736,0.9395
+24,South Asia,Boreal-Mid,109.993,0.205771,3.3785,1.0239
+24,Latin America,Boreal-Mid,109.994,0.193785,2.8392,1.0239
+24,Europe,Boreal-Mid,113.174,0.160455,1.9002,1.0239
+24,East Asia,Boreal-Mid,112.37,0.146705,2.0443,1.0239
+24,Africa,Boreal-Mid,111.444,0.07001,1.075,1.0239
+24,North America,Boreal-Mid,114.52,0.137732,1.2736,1.0239
+24,South Asia,Boreal-High,128.377,0.224425,3.3785,1.0239
+24,Latin America,Boreal-High,127.786,0.16383,2.8392,1.0239
+24,Europe,Boreal-High,132.113,0.190796,1.9002,1.0239
+24,East Asia,Boreal-High,129.974,0.168433,2.0443,1.0239
+24,Africa,Boreal-High,129.789,0.07553,1.075,1.0239
+24,North America,Boreal-High,134.001,0.127337,1.2736,1.0239
+24,South Asia,Cerro-Low,85.347,0.190826,3.3785,1.0999
+24,Latin America,Cerro-Low,91.645,0.283623,2.8392,1.0999
+24,East Asia,Cerro-Low,84.3,0.085524,2.0443,1.0999
+24,Africa,Cerro-Low,83.679,0.040257,1.075,1.0999
+24,North America,Cerro-Low,92.048,0.117255,1.2736,1.0999
+24,South Asia,Cerro-Mid,100.441,0.242257,3.3785,1.0999
+24,Latin America,Cerro-Mid,105.577,0.333473,2.8392,1.0999
+24,Europe,Cerro-Mid,97.707,0.094274,1.9002,1.0999
+24,East Asia,Cerro-Mid,101.118,0.138469,2.0443,1.0999
+24,Africa,Cerro-Mid,100.198,0.071351,1.075,1.0999
+24,North America,Cerro-Mid,103.083,0.127274,1.2736,1.0999
+24,South Asia,Dune-Low,81.689,0.271478,3.3785,0.9785
+24,Latin America,Dune-Low,79.997,0.16599,2.8392,0.9785
+24,Europe,Dune-Low,82.895,0.155774,1.9002,0.9785
+24,East Asia,Dune-Low,86.826,0.27069,2.0443,0.9785
+24,Africa,Dune-Low,82.378,0.09754,1.075,0.9785
+25,South Asia,Atlas-Low,93.608,0.325887,3.599,0.9593
+25,Latin America,Atlas-Low,89.907,0.187099,2.8043,0.9593
+25,Europe,Atlas-Low,101.776,0.221486,1.7656,0.9593
+25,East Asia,Atlas-Low,89.113,0.10264,1.9161,0.9593
+25,Africa,Atlas-Low,94.415,0.125157,1.0874,0.9593
+25,North America,Atlas-Low,92.991,0.116426,1.3812,0.9593
+25,South Asia,Atlas-Mid,108.446,0.433733,3.599,0.9593
+25,Latin America,Atlas-Mid,103.184,0.27813,2.8043,0.9593
+25,Europe,Atlas-Mid,107.927,0.169078,1.7656,0.9593
+25,East Asia,Atlas-Mid,103.396,0.145097,1.9161,0.9593
+25,Africa,Atlas-Mid,105.711,0.088804,1.0874,0.9593
+25,North America,Atlas-Mid,101.049,0.105242,1.3812,0.9593
+25,South Asia,Atlas-High,127.125,0.406671,3.599,0.9593
+25,Latin America,Atlas-High,121.653,0.273417,2.8043,0.9593
+25,Europe,Atlas-High,126.325,0.222146,1.7656,0.9593
+25,East Asia,Atlas-High,121.811,0.261275,1.9161,0.9593
+25,Africa,Atlas-High,122.602,0.113128,1.0874,0.9593
+25,North America,Atlas-High,118.954,0.133752,1.3812,0.9593
+25,South Asia,Boreal-Mid,107.524,0.265681,3.599,1.0402
+25,Latin America,Boreal-Mid,106.786,0.170482,2.8043,1.0402
+25,Europe,Boreal-Mid,110.667,0.159495,1.7656,1.0402
+25,East Asia,Boreal-Mid,107.888,0.103666,1.9161,1.0402
+25,Africa,Boreal-Mid,108.328,0.063605,1.0874,1.0402
+25,North America,Boreal-Mid,109.499,0.116548,1.3812,1.0402
+25,South Asia,Boreal-High,124.955,0.187123,3.599,1.0402
+25,Latin America,Boreal-High,126.955,0.208035,2.8043,1.0402
+25,Europe,Boreal-High,127.923,0.159451,1.7656,1.0402
+25,East Asia,Boreal-High,127.378,0.194328,1.9161,1.0402
+25,Africa,Boreal-High,127.639,0.091927,1.0874,1.0402
+25,North America,Boreal-High,130.553,0.146023,1.3812,1.0402
+25,South Asia,Cerro-Low,81.886,0.205549,3.599,1.0361
+25,Latin America,Cerro-Low,88.65,0.27626,2.8043,1.0361
+25,East Asia,Cerro-Low,82.722,0.102701,1.9161,1.0361
+25,Africa,Cerro-Low,80.588,0.045933,1.0874,1.0361
+25,North America,Cerro-Low,90.543,0.118284,1.3812,1.0361
+25,South Asia,Cerro-Mid,95.612,0.23209,3.599,1.0361
+25,Latin America,Cerro-Mid,102.042,0.334796,2.8043,1.0361
+25,Europe,Cerro-Mid,94.154,0.096949,1.7656,1.0361
+25,East Asia,Cerro-Mid,98.439,0.150974,1.9161,1.0361
+25,Africa,Cerro-Mid,96.056,0.063619,1.0874,1.0361
+25,North America,Cerro-Mid,102.577,0.184917,1.3812,1.0361
+25,South Asia,Dune-Low,81.47,0.378219,3.599,0.999
+25,Latin America,Dune-Low,77.939,0.156508,2.8043,0.999
+25,Europe,Dune-Low,80.097,0.129078,1.7656,0.999
+25,East Asia,Dune-Low,83.226,0.193978,1.9161,0.999
+25,Africa,Dune-Low,80.818,0.102657,1.0874,0.999
+26,South Asia,Atlas-Low,94.152,0.23127,3.4121,0.8223
+26,Latin America,Atlas-Low,91.488,0.182078,2.5919,0.8223
+26,Europe,Atlas-Low,101.307,0.194864,1.7205,0.8223
+26,East Asia,Atlas-Low,90.648,0.12921,2.0299,0.8223
+26,Africa,Atlas-Low,97.208,0.133376,1.189,0.8223
+26,North America,Atlas-Low,94.59,0.09323,1.4434,0.8223
+26,South Asia,Atlas-Mid,111.352,0.45462,3.4121,0.8223
+26,Latin America,Atlas-Mid,103.979,0.271157,2.5919,0.8223
+26,Europe,Atlas-Mid,110.206,0.210714,1.7205,0.8223
+26,East Asia,Atlas-Mid,102.771,0.150354,2.0299,0.8223
+26,Africa,Atlas-Mid,108.57,0.109354,1.189,0.8223
+26,North America,Atlas-Mid,101.606,0.112851,1.4434,0.8223
+26,South Asia,Atlas-High,125.953,0.456842,3.4121,0.8223
+26,Latin America,Atlas-High,120.114,0.248649,2.5919,0.8223
+26,Europe,Atlas-High,124.581,0.207578,1.7205,0.8223
+26,East Asia,Atlas-High,118.423,0.23543,2.0299,0.8223
+26,Africa,Atlas-High,124.431,0.151158,1.189,0.8223
+26,North America,Atlas-High,118.284,0.178289,1.4434,0.8223
+26,South Asia,Boreal-Mid,106.029,0.19385,3.4121,0.9934
+26,Latin America,Boreal-Mid,106.773,0.171815,2.5919,0.9934
+26,Europe,Boreal-Mid,109.201,0.14928,1.7205,0.9934
+26,East Asia,Boreal-Mid,107.564,0.116043,2.0299,0.9934
+26,Africa,Boreal-Mid,107.671,0.074973,1.189,0.9934
+26,North America,Boreal-Mid,111.218,0.164179,1.4434,0.9934
+26,South Asia,Boreal-High,123.461,0.224435,3.4121,0.9934
+26,Latin America,Boreal-High,125.492,0.186143,2.5919,0.9934
+26,Europe,Boreal-High,126.16,0.139371,1.7205,0.9934
+26,East Asia,Boreal-High,126.825,0.199892,2.0299,0.9934
+26,Africa,Boreal-High,124.535,0.088263,1.189,0.9934
+26,North America,Boreal-High,129.584,0.165575,1.4434,0.9934
+26,South Asia,Cerro-Low,84.281,0.273734,3.4121,1.0498
+26,Latin America,Cerro-Low,88.889,0.278871,2.5919,1.0498
+26,East Asia,Cerro-Low,84.846,0.144134,2.0299,1.0498
+26,Africa,Cerro-Low,81.829,0.062997,1.189,1.0498
+26,North America,Cerro-Low,90.974,0.113565,1.4434,1.0498
+26,South Asia,Cerro-Mid,96.07,0.168124,3.4121,1.0498
+26,Latin America,Cerro-Mid,101.04,0.247582,2.5919,1.0498
+26,Europe,Cerro-Mid,93.838,0.071404,1.7205,1.0498
+26,East Asia,Cerro-Mid,99.692,0.16702,2.0299,1.0498
+26,Africa,Cerro-Mid,95.691,0.052377,1.189,1.0498
+26,North America,Cerro-Mid,100.948,0.170591,1.4434,1.0498
+26,South Asia,Dune-Low,80.499,0.326829,3.4121,0.9187
+26,Latin America,Dune-Low,77.558,0.168352,2.5919,0.9187
+26,Europe,Dune-Low,81.209,0.160187,1.7205,0.9187
+26,East Asia,Dune-Low,80.855,0.202532,2.0299,0.9187
+26,Africa,Dune-Low,79.506,0.110404,1.189,0.9187
+27,South Asia,Atlas-Low,90.775,0.239873,3.2233,0.925
+27,Latin America,Atlas-Low,88.454,0.18891,2.6543,0.925
+27,Europe,Atlas-Low,98.881,0.221131,1.8745,0.925
+27,East Asia,Atlas-Low,87.884,0.178429,2.1796,0.925
+27,Africa,Atlas-Low,94.961,0.142078,1.1878,0.925
+27,North America,Atlas-Low,91.429,0.093036,1.3483,0.925
+27,South Asia,Atlas-Mid,108.038,0.363791,3.2233,0.925
+27,Latin America,Atlas-Mid,102.098,0.262173,2.6543,0.925
+27,Europe,Atlas-Mid,107.645,0.239181,1.8745,0.925
+27,East Asia,Atlas-Mid,100.755,0.183754,2.1796,0.925
+27,Africa,Atlas-Mid,108.36,0.123695,1.1878,0.925
+27,North America,Atlas-Mid,100.022,0.117552,1.3483,0.925
+27,South Asia,Atlas-High,126.481,0.426569,3.2233,0.925
+27,Latin America,Atlas-High,119.307,0.273322,2.6543,0.925
+27,Europe,Atlas-High,122.414,0.195935,1.8745,0.925
+27,East Asia,Atlas-High,115.954,0.18718,2.1796,0.925
+27,Africa,Atlas-High,125.443,0.149229,1.1878,0.925
+27,North America,Atlas-High,117.491,0.153166,1.3483,0.925
+27,South Asia,Boreal-Mid,105.166,0.162891,3.2233,0.9664
+27,Latin America,Boreal-Mid,106.751,0.178804,2.6543,0.9664
+27,Europe,Boreal-Mid,108.411,0.161406,1.8745,0.9664
+27,East Asia,Boreal-Mid,108.683,0.157601,2.1796,0.9664
+27,Africa,Boreal-Mid,106.37,0.069187,1.1878,0.9664
+27,North America,Boreal-Mid,110.363,0.149999,1.3483,0.9664
+27,South Asia,Boreal-High,121.605,0.175224,3.2233,0.9664
+27,Latin America,Boreal-High,125.408,0.210567,2.6543,0.9664
+27,Europe,Boreal-High,126.624,0.179288,1.8745,0.9664
+27,East Asia,Boreal-High,128.259,0.213561,2.1796,0.9664
+27,Africa,Boreal-High,123.065,0.076901,1.1878,0.9664
+27,North America,Boreal-High,128.953,0.153109,1.3483,0.9664
+27,South Asia,Cerro-Low,79.654,0.278143,3.2233,0.9541
+27,Latin America,Cerro-Low,83.527,0.284726,2.6543,0.9541
+27,East Asia,Cerro-Low,81.963,0.222641,2.1796,0.9541
+27,Africa,Cerro-Low,77.495,0.071701,1.1878,0.9541
+27,North America,Cerro-Low,86.381,0.118711,1.3483,0.9541
+27,South Asia,Cerro-Mid,91.148,0.188495,3.2233,0.9541
+27,Latin America,Cerro-Mid,94.956,0.258115,2.6543,0.9541
+27,Europe,Cerro-Mid,88.88,0.113842,1.8745,0.9541
+27,East Asia,Cerro-Mid,93.098,0.160132,2.1796,0.9541
+27,Africa,Cerro-Mid,89.883,0.056782,1.1878,0.9541
+27,North America,Cerro-Mid,95.153,0.155578,1.3483,0.9541
+27,South Asia,Dune-Low,79.737,0.354105,3.2233,0.8993
+27,Latin America,Dune-Low,76.856,0.19322,2.6543,0.8993
+27,Europe,Dune-Low,79.071,0.14779,1.8745,0.8993
+27,East Asia,Dune-Low,77.16,0.175866,2.1796,0.8993
+27,Africa,Dune-Low,77.841,0.103655,1.1878,0.8993
+28,South Asia,Atlas-Low,91.956,0.217522,3.4461,0.8511
+28,Latin America,Atlas-Low,90.332,0.165822,2.896,0.8511
+28,Europe,Atlas-Low,98.391,0.171843,1.9382,0.8511
+28,East Asia,Atlas-Low,93.026,0.182045,2.0851,0.8511
+28,Africa,Atlas-Low,97.852,0.113606,1.0965,0.8511
+28,North America,Atlas-Low,96.333,0.100177,1.2991,0.8511
+28,South Asia,Atlas-Mid,108.712,0.438977,3.4461,0.8511
+28,Latin America,Atlas-Mid,105.302,0.364306,2.896,0.8511
+28,Europe,Atlas-Mid,107.86,0.221014,1.9382,0.8511
+28,East Asia,Atlas-Mid,104.318,0.194611,2.0851,0.8511
+28,Africa,Atlas-Mid,111.064,0.134881,1.0965,0.8511
+28,North America,Atlas-Mid,103.519,0.130167,1.2991,0.8511
+28,South Asia,Atlas-High,123.736,0.384545,3.4461,0.8511
+28,Latin America,Atlas-High,121.652,0.273857,2.896,0.8511
+28,Europe,Atlas-High,124.077,0.243816,1.9382,0.8511
+28,East Asia,Atlas-High,120.364,0.200376,2.0851,0.8511
+28,Africa,Atlas-High,128.495,0.134015,1.0965,0.8511
+28,North America,Atlas-High,120.085,0.140647,1.2991,0.8511
+28,South Asia,Boreal-Mid,110.548,0.117972,3.4461,1.1398
+28,Latin America,Boreal-Mid,111.648,0.167271,2.896,1.1398
+28,Europe,Boreal-Mid,114.683,0.164055,1.9382,1.1398
+28,East Asia,Boreal-Mid,113.555,0.146905,2.0851,1.1398
+28,Africa,Boreal-Mid,112.229,0.06194,1.0965,1.1398
+28,North America,Boreal-Mid,115.235,0.120963,1.2991,1.1398
+28,South Asia,Boreal-High,132.206,0.224089,3.4461,1.1398
+28,Latin America,Boreal-High,132.888,0.167025,2.896,1.1398
+28,Europe,Boreal-High,134.316,0.160688,1.9382,1.1398
+28,East Asia,Boreal-High,134.628,0.148871,2.0851,1.1398
+28,Africa,Boreal-High,130.985,0.052817,1.0965,1.1398
+28,North America,Boreal-High,136.414,0.125025,1.2991,1.1398
+28,South Asia,Cerro-Low,83.718,0.283316,3.4461,1.0152
+28,Latin America,Cerro-Low,89.579,0.380766,2.896,1.0152
+28,East Asia,Cerro-Low,81.602,0.117084,2.0851,1.0152
+28,Africa,Cerro-Low,82.631,0.078761,1.0965,1.0152
+28,North America,Cerro-Low,87.628,0.100157,1.2991,1.0152
+28,South Asia,Cerro-Mid,97.079,0.283639,3.4461,1.0152
+28,Latin America,Cerro-Mid,99.837,0.307785,2.896,1.0152
+28,Europe,Cerro-Mid,93.29,0.129644,1.9382,1.0152
+28,East Asia,Cerro-Mid,96.515,0.17376,2.0851,1.0152
+28,Africa,Cerro-Mid,94.154,0.056919,1.0965,1.0152
+28,North America,Cerro-Mid,98.355,0.14877,1.2991,1.0152
+28,South Asia,Dune-Low,82.126,0.350262,3.4461,0.985
+28,Latin America,Dune-Low,78.461,0.190732,2.896,0.985
+28,Europe,Dune-Low,83.277,0.171191,1.9382,0.985
+28,East Asia,Dune-Low,81.229,0.186254,2.0851,0.985
+28,Africa,Dune-Low,77.799,0.057504,1.0965,0.985
+29,South Asia,Atlas-Low,94.841,0.343118,3.6709,0.9191
+29,Latin America,Atlas-Low,91.536,0.170958,2.8603,0.9191
+29,Europe,Atlas-Low,98.995,0.158583,1.8009,0.9191
+29,East Asia,Atlas-Low,93.014,0.180427,1.9545,0.9191
+29,Africa,Atlas-Low,99.155,0.149981,1.1091,0.9191
+29,North America,Atlas-Low,95.011,0.085983,1.4088,0.9191
+29,South Asia,Atlas-Mid,107.333,0.340768,3.6709,0.9191
+29,Latin America,Atlas-Mid,103.978,0.257663,2.8603,0.9191
+29,Europe,Atlas-Mid,108.713,0.182653,1.8009,0.9191
+29,East Asia,Atlas-Mid,105.9,0.200026,1.9545,0.9191
+29,Africa,Atlas-Mid,109.546,0.109241,1.1091,0.9191
+29,North America,Atlas-Mid,107.302,0.184778,1.4088,0.9191
+29,South Asia,Atlas-High,127.413,0.443001,3.6709,0.9191
+29,Latin America,Atlas-High,125.605,0.32323,2.8603,0.9191
+29,Europe,Atlas-High,130.171,0.257651,1.8009,0.9191
+29,East Asia,Atlas-High,124.899,0.158625,1.9545,0.9191
+29,Africa,Atlas-High,129.23,0.106402,1.1091,0.9191
+29,North America,Atlas-High,126.695,0.166465,1.4088,0.9191
+29,South Asia,Boreal-Mid,115.698,0.179013,3.6709,1.1969
+29,Latin America,Boreal-Mid,115.266,0.153609,2.8603,1.1969
+29,Europe,Boreal-Mid,117.66,0.131609,1.8009,1.1969
+29,East Asia,Boreal-Mid,115.96,0.114422,1.9545,1.1969
+29,Africa,Boreal-Mid,115.669,0.053495,1.1091,1.1969
+29,North America,Boreal-Mid,115.792,0.082872,1.4088,1.1969
+29,South Asia,Boreal-High,136.598,0.203893,3.6709,1.1969
+29,Latin America,Boreal-High,136.469,0.150656,2.8603,1.1969
+29,Europe,Boreal-High,136.5,0.097824,1.8009,1.1969
+29,East Asia,Boreal-High,137.089,0.08769,1.9545,1.1969
+29,Africa,Boreal-High,136.126,0.049038,1.1091,1.1969
+29,North America,Boreal-High,137.399,0.089549,1.4088,1.1969
+29,South Asia,Cerro-Low,81.645,0.195832,3.6709,1.0217
+29,Latin America,Cerro-Low,89.959,0.306295,2.8603,1.0217
+29,East Asia,Cerro-Low,82.319,0.111335,1.9545,1.0217
+29,Africa,Cerro-Low,81.612,0.069794,1.1091,1.0217
+29,North America,Cerro-Low,92.977,0.148524,1.4088,1.0217
+29,South Asia,Cerro-Mid,98.039,0.349291,3.6709,1.0217
+29,Latin America,Cerro-Mid,103.992,0.424096,2.8603,1.0217
+29,Europe,Cerro-Mid,94.758,0.133975,1.8009,1.0217
+29,East Asia,Cerro-Mid,98.041,0.195919,1.9545,1.0217
+29,Africa,Cerro-Mid,96.664,0.084457,1.1091,1.0217
+29,North America,Cerro-Mid,101.502,0.193617,1.4088,1.0217
+29,South Asia,Dune-Low,84.594,0.367062,3.6709,1.0316
+29,Latin America,Dune-Low,80.408,0.148316,2.8603,1.0316
+29,Europe,Dune-Low,86.071,0.169203,1.8009,1.0316
+29,East Asia,Dune-Low,84.612,0.210418,1.9545,1.0316
+29,Africa,Dune-Low,81.218,0.084575,1.1091,1.0316
+30,South Asia,Atlas-Low,91.979,0.254663,3.4803,0.9713
+30,Latin America,Atlas-Low,91.051,0.201396,2.6437,0.9713
+30,Europe,Atlas-Low,100.74,0.190284,1.7549,0.9713
+30,East Asia,Atlas-Low,90.834,0.155438,2.0705,0.9713
+30,Africa,Atlas-Low,97.628,0.150462,1.2128,0.9713
+30,North America,Atlas-Low,93.236,0.117083,1.4722,0.9713
+30,South Asia,Atlas-Mid,106.943,0.356811,3.4803,0.9713
+30,Latin America,Atlas-Mid,105.526,0.294715,2.6437,0.9713
+30,Europe,Atlas-Mid,112.493,0.241518,1.7549,0.9713
+30,East Asia,Atlas-Mid,105.237,0.194878,2.0705,0.9713
+30,Africa,Atlas-Mid,109.393,0.114409,1.2128,0.9713
+30,North America,Atlas-Mid,104.112,0.130982,1.4722,0.9713
+30,South Asia,Atlas-High,125.819,0.433902,3.4803,0.9713
+30,Latin America,Atlas-High,122.653,0.247892,2.6437,0.9713
+30,Europe,Atlas-High,132.086,0.214613,1.7549,0.9713
+30,East Asia,Atlas-High,125.05,0.205356,2.0705,0.9713
+30,Africa,Atlas-High,130.152,0.144923,1.2128,0.9713
+30,North America,Atlas-High,123.368,0.170484,1.4722,0.9713
+30,South Asia,Boreal-Mid,111.741,0.162098,3.4803,1.139
+30,Latin America,Boreal-Mid,111.498,0.130088,2.6437,1.139
+30,Europe,Boreal-Mid,113.973,0.156996,1.7549,1.139
+30,East Asia,Boreal-Mid,113.255,0.140044,2.0705,1.139
+30,Africa,Boreal-Mid,112.133,0.065612,1.2128,1.139
+30,North America,Boreal-Mid,115.026,0.130814,1.4722,1.139
+30,South Asia,Boreal-High,132.618,0.25731,3.4803,1.139
+30,Latin America,Boreal-High,134.023,0.196456,2.6437,1.139
+30,Europe,Boreal-High,131.776,0.088719,1.7549,1.139
+30,East Asia,Boreal-High,132.213,0.106785,2.0705,1.139
+30,Africa,Boreal-High,131.064,0.061618,1.2128,1.139
+30,North America,Boreal-High,135.179,0.12413,1.4722,1.139
+30,South Asia,Cerro-Low,83.808,0.197494,3.4803,1.0568
+30,Latin America,Cerro-Low,91.817,0.339658,2.6437,1.0568
+30,East Asia,Cerro-Low,84.296,0.142065,2.0705,1.0568
+30,Africa,Cerro-Low,83.172,0.071316,1.2128,1.0568
+30,North America,Cerro-Low,93.05,0.165283,1.4722,1.0568
+30,South Asia,Cerro-Mid,99.901,0.319906,3.4803,1.0568
+30,Latin America,Cerro-Mid,103.447,0.31175,2.6437,1.0568
+30,Europe,Cerro-Mid,94.55,0.084038,1.7549,1.0568
+30,East Asia,Cerro-Mid,98.336,0.143826,2.0705,1.0568
+30,Africa,Cerro-Mid,98.034,0.08084,1.2128,1.0568
+30,North America,Cerro-Mid,101.794,0.152417,1.4722,1.0568
+30,South Asia,Dune-Low,79.702,0.385519,3.4803,1.017
+30,Latin America,Dune-Low,73.594,0.109703,2.6437,1.017
+30,Europe,Dune-Low,79.547,0.167386,1.7549,1.017
+30,East Asia,Dune-Low,78.492,0.199141,2.0705,1.017
+30,Africa,Dune-Low,75.773,0.088948,1.2128,1.017
+31,South Asia,Atlas-Low,91.745,0.241671,3.2878,1.0118
+31,Latin America,Atlas-Low,90.886,0.182201,2.7074,1.0118
+31,Europe,Atlas-Low,102.785,0.274535,1.912,1.0118
+31,East Asia,Atlas-Low,90.997,0.165121,2.2232,1.0118
+31,Africa,Atlas-Low,98.916,0.15208,1.2116,1.0118
+31,North America,Atlas-Low,91.129,0.091668,1.3752,1.0118
+31,South Asia,Atlas-Mid,107.142,0.320981,3.2878,1.0118
+31,Latin America,Atlas-Mid,106.162,0.301074,2.7074,1.0118
+31,Europe,Atlas-Mid,109.732,0.178603,1.912,1.0118
+31,East Asia,Atlas-Mid,106.325,0.216335,2.2232,1.0118
+31,Africa,Atlas-Mid,110.526,0.13752,1.2116,1.0118
+31,North America,Atlas-Mid,103.14,0.103519,1.3752,1.0118
+31,South Asia,Atlas-High,124.37,0.371349,3.2878,1.0118
+31,Latin America,Atlas-High,123.17,0.239283,2.7074,1.0118
+31,Europe,Atlas-High,129.292,0.22204,1.912,1.0118
+31,East Asia,Atlas-High,124.856,0.205234,2.2232,1.0118
+31,Africa,Atlas-High,128.853,0.127838,1.2116,1.0118
+31,North America,Atlas-High,123.403,0.151172,1.3752,1.0118
+31,South Asia,Boreal-Mid,107.602,0.18177,3.2878,1.0638
+31,Latin America,Boreal-Mid,106.997,0.159324,2.7074,1.0638
+31,Europe,Boreal-Mid,109.21,0.148025,1.912,1.0638
+31,East Asia,Boreal-Mid,108.814,0.169583,2.2232,1.0638
+31,Africa,Boreal-Mid,106.772,0.070261,1.2116,1.0638
+31,North America,Boreal-Mid,114.072,0.174254,1.3752,1.0638
+31,South Asia,Boreal-High,128.352,0.305098,3.2878,1.0638
+31,Latin America,Boreal-High,128.502,0.217634,2.7074,1.0638
+31,Europe,Boreal-High,127.349,0.141444,1.912,1.0638
+31,East Asia,Boreal-High,126.943,0.131739,2.2232,1.0638
+31,Africa,Boreal-High,126.294,0.074983,1.2116,1.0638
+31,North America,Boreal-High,130.15,0.115783,1.3752,1.0638
+31,South Asia,Cerro-Low,83.553,0.175826,3.2878,1.0647
+31,Latin America,Cerro-Low,90.221,0.283324,2.7074,1.0647
+31,East Asia,Cerro-Low,84.938,0.165433,2.2232,1.0647
+31,Africa,Cerro-Low,83.881,0.06949,1.2116,1.0647
+31,North America,Cerro-Low,95.01,0.182718,1.3752,1.0647
+31,South Asia,Cerro-Mid,99.49,0.26375,3.2878,1.0647
+31,Latin America,Cerro-Mid,102.505,0.291672,2.7074,1.0647
+31,Europe,Cerro-Mid,96.834,0.123258,1.912,1.0647
+31,East Asia,Cerro-Mid,97.83,0.127194,2.2232,1.0647
+31,Africa,Cerro-Mid,98.861,0.092855,1.2116,1.0647
+31,North America,Cerro-Mid,100.05,0.092013,1.3752,1.0647
+31,South Asia,Dune-Low,82.053,0.388108,3.2878,1.0524
+31,Latin America,Dune-Low,76.415,0.152323,2.7074,1.0524
+31,Europe,Dune-Low,78.986,0.154445,1.912,1.0524
+31,East Asia,Dune-Low,79.563,0.207077,2.2232,1.0524
+31,Africa,Dune-Low,76.348,0.067151,1.2116,1.0524
+32,South Asia,Atlas-Low,97.803,0.250229,3.515,1.1507
+32,Latin America,Atlas-Low,97.261,0.223197,2.954,1.1507
+32,Europe,Atlas-Low,105.985,0.227426,1.9769,1.1507
+32,East Asia,Atlas-Low,97.454,0.150157,2.1268,1.1507
+32,Africa,Atlas-Low,99.335,0.102067,1.1185,1.1507
+32,North America,Atlas-Low,97.911,0.089142,1.3251,1.1507
+32,South Asia,Atlas-Mid,113.576,0.3194,3.515,1.1507
+32,Latin America,Atlas-Mid,111.224,0.191187,2.954,1.1507
+32,Europe,Atlas-Mid,114.91,0.156716,1.9769,1.1507
+32,East Asia,Atlas-Mid,114.231,0.180348,2.1268,1.1507
+32,Africa,Atlas-Mid,115.143,0.103405,1.1185,1.1507
+32,North America,Atlas-Mid,110.334,0.077142,1.3251,1.1507
+32,South Asia,Atlas-High,131.487,0.280198,3.515,1.1507
+32,Latin America,Atlas-High,133.392,0.241235,2.954,1.1507
+32,Europe,Atlas-High,136.01,0.190052,1.9769,1.1507
+32,East Asia,Atlas-High,133.131,0.163977,2.1268,1.1507
+32,Africa,Atlas-High,133.785,0.076244,1.1185,1.1507
+32,North America,Atlas-High,131.237,0.108251,1.3251,1.1507
+32,South Asia,Boreal-Mid,112.566,0.157809,3.515,0.9982
+32,Latin America,Boreal-Mid,112.907,0.181642,2.954,0.9982
+32,Europe,Boreal-Mid,115.627,0.16186,1.9769,0.9982
+32,East Asia,Boreal-Mid,115.272,0.16712,2.1268,0.9982
+32,Africa,Boreal-Mid,111.107,0.041421,1.1185,0.9982
+32,North America,Boreal-Mid,120.312,0.1708,1.3251,0.9982
+32,South Asia,Boreal-High,135.266,0.342804,3.515,0.9982
+32,Latin America,Boreal-High,132.475,0.204104,2.954,0.9982
+32,Europe,Boreal-High,133.675,0.159041,1.9769,0.9982
+32,East Asia,Boreal-High,133.586,0.145891,2.1268,0.9982
+32,Africa,Boreal-High,132.392,0.070362,1.1185,0.9982
+32,North America,Boreal-High,137.29,0.128316,1.3251,0.9982
+32,South Asia,Cerro-Low,81.907,0.218221,3.515,0.9963
+32,Latin America,Cerro-Low,89.494,0.376092,2.954,0.9963
+32,East Asia,Cerro-Low,83.226,0.199726,2.1268,0.9963
+32,Africa,Cerro-Low,83.553,0.098523,1.1185,0.9963
+32,North America,Cerro-Low,91.015,0.15888,1.3251,0.9963
+32,South Asia,Cerro-Mid,98.51,0.404664,3.515,0.9963
+32,Latin America,Cerro-Mid,102.732,0.420594,2.954,0.9963
+32,Europe,Cerro-Mid,93.934,0.164382,1.9769,0.9963
+32,East Asia,Cerro-Mid,94.025,0.121818,2.1268,0.9963
+32,Africa,Cerro-Mid,98.394,0.11154,1.1185,0.9963
+32,North America,Cerro-Mid,96.767,0.106787,1.3251,0.9963
+32,South Asia,Dune-Low,85.143,0.358614,3.515,1.153
+32,Latin America,Dune-Low,80.083,0.138847,2.954,1.153
+32,Europe,Dune-Low,84.45,0.162154,1.9769,1.153
+32,East Asia,Dune-Low,82.685,0.172452,2.1268,1.153
+32,Africa,Dune-Low,82.326,0.084718,1.1185,1.153
+33,South Asia,Atlas-Low,95.138,0.340068,3.7444,1.0271
+33,Latin America,Atlas-Low,94.054,0.237948,2.9175,1.0271
+33,Europe,Atlas-Low,100.492,0.195906,1.8369,1.0271
+33,East Asia,Atlas-Low,92.567,0.160536,1.9936,1.0271
+33,Africa,Atlas-Low,94.426,0.102852,1.1313,1.0271
+33,North America,Atlas-Low,95.626,0.155877,1.437,1.0271
+33,South Asia,Atlas-Mid,109.85,0.378029,3.7444,1.0271
+33,Latin America,Atlas-Mid,105.993,0.247522,2.9175,1.0271
+33,Europe,Atlas-Mid,107.943,0.15883,1.8369,1.0271
+33,East Asia,Atlas-Mid,107.337,0.207244,1.9936,1.0271
+33,Africa,Atlas-Mid,110.46,0.135493,1.1313,1.0271
+33,North America,Atlas-Mid,103.982,0.096912,1.437,1.0271
+33,South Asia,Atlas-High,126.565,0.425668,3.7444,1.0271
+33,Latin America,Atlas-High,128.969,0.379792,2.9175,1.0271
+33,Europe,Atlas-High,127.924,0.23409,1.8369,1.0271
+33,East Asia,Atlas-High,123.955,0.153713,1.9936,1.0271
+33,Africa,Atlas-High,126.436,0.09908,1.1313,1.0271
+33,North America,Atlas-High,122.12,0.115939,1.437,1.0271
+33,South Asia,Boreal-Mid,109.866,0.173931,3.7444,0.9879
+33,Latin America,Boreal-Mid,110.301,0.214426,2.9175,0.9879
+33,Europe,Boreal-Mid,113.049,0.168153,1.8369,0.9879
+33,East Asia,Boreal-Mid,110.404,0.124859,1.9936,0.9879
+33,Africa,Boreal-Mid,107.966,0.036663,1.1313,0.9879
+33,North America,Boreal-Mid,115.798,0.158227,1.437,0.9879
+33,South Asia,Boreal-High,129.965,0.37499,3.7444,0.9879
+33,Latin America,Boreal-High,127.515,0.183759,2.9175,0.9879
+33,Europe,Boreal-High,130.421,0.172296,1.8369,0.9879
+33,East Asia,Boreal-High,130.197,0.139523,1.9936,0.9879
+33,Africa,Boreal-High,128.547,0.075064,1.1313,0.9879
+33,North America,Boreal-High,134.298,0.137179,1.437,0.9879
+33,South Asia,Cerro-Low,83.38,0.219683,3.7444,1.0506
+33,Latin America,Cerro-Low,90.567,0.291764,2.9175,1.0506
+33,East Asia,Cerro-Low,86.319,0.169693,1.9936,1.0506
+33,Africa,Cerro-Low,84.089,0.073699,1.1313,1.0506
+33,North America,Cerro-Low,89.47,0.152618,1.437,1.0506
+33,South Asia,Cerro-Mid,98.663,0.294751,3.7444,1.0506
+33,Latin America,Cerro-Mid,103.849,0.386215,2.9175,1.0506
+33,Europe,Cerro-Mid,97.174,0.150048,1.8369,1.0506
+33,East Asia,Cerro-Mid,99.091,0.156276,1.9936,1.0506
+33,Africa,Cerro-Mid,99.35,0.098723,1.1313,1.0506
+33,North America,Cerro-Mid,99.716,0.122761,1.437,1.0506
+33,South Asia,Dune-Low,84.699,0.319507,3.7444,1.1787
+33,Latin America,Dune-Low,80.574,0.100169,2.9175,1.1787
+33,Europe,Dune-Low,85.39,0.140806,1.8369,1.1787
+33,East Asia,Dune-Low,82.759,0.127087,1.9936,1.1787
+33,Africa,Dune-Low,84.55,0.0999,1.1313,1.1787
+34,South Asia,Atlas-Low,91.977,0.388286,3.55,0.9752
+34,Latin America,Atlas-Low,92.856,0.232573,2.6966,0.9752
+34,Europe,Atlas-Low,97.279,0.185929,1.79,0.9752
+34,East Asia,Atlas-Low,89.28,0.158711,2.1119,0.9752
+34,Africa,Atlas-Low,93.214,0.128795,1.2371,0.9752
+34,North America,Atlas-Low,93.554,0.146751,1.5017,0.9752
+34,South Asia,Atlas-Mid,104.689,0.303028,3.55,0.9752
+34,Latin America,Atlas-Mid,103.335,0.222465,2.6966,0.9752
+34,Europe,Atlas-Mid,106.873,0.184602,1.79,0.9752
+34,East Asia,Atlas-Mid,103.558,0.217602,2.1119,0.9752
+34,Africa,Atlas-Mid,109.492,0.162299,1.2371,0.9752
+34,North America,Atlas-Mid,104.58,0.16462,1.5017,0.9752
+34,South Asia,Atlas-High,121.094,0.354006,3.55,0.9752
+34,Latin America,Atlas-High,126.081,0.380832,2.6966,0.9752
+34,Europe,Atlas-High,126.912,0.24752,1.79,0.9752
+34,East Asia,Atlas-High,119.082,0.180329,2.1119,0.9752
+34,Africa,Atlas-High,121.003,0.103019,1.2371,0.9752
+34,North America,Atlas-High,120.162,0.138244,1.5017,0.9752
+34,South Asia,Boreal-Mid,109.891,0.221344,3.55,1.0256
+34,Latin America,Boreal-Mid,107.949,0.168071,2.6966,1.0256
+34,Europe,Boreal-Mid,109.858,0.138414,1.79,1.0256
+34,East Asia,Boreal-Mid,108.456,0.121159,2.1119,1.0256
+34,Africa,Boreal-Mid,106.926,0.041099,1.2371,1.0256
+34,North America,Boreal-Mid,114.076,0.173221,1.5017,1.0256
+34,South Asia,Boreal-High,129.655,0.32515,3.55,1.0256
+34,Latin America,Boreal-High,126.065,0.189078,2.6966,1.0256
+34,Europe,Boreal-High,127.191,0.135925,1.79,1.0256
+34,East Asia,Boreal-High,129.847,0.177492,2.1119,1.0256
+34,Africa,Boreal-High,129.771,0.111765,1.2371,1.0256
+34,North America,Boreal-High,132.553,0.151122,1.5017,1.0256
+34,South Asia,Cerro-Low,81.935,0.256177,3.55,1.019
+34,Latin America,Cerro-Low,87.355,0.236375,2.6966,1.019
+34,East Asia,Cerro-Low,85.284,0.183451,2.1119,1.019
+34,Africa,Cerro-Low,82.389,0.090298,1.2371,1.019
+34,North America,Cerro-Low,87.869,0.166087,1.5017,1.019
+34,South Asia,Cerro-Mid,95.869,0.225136,3.55,1.019
+34,Latin America,Cerro-Mid,102.182,0.371537,2.6966,1.019
+34,Europe,Cerro-Mid,94.636,0.141017,1.79,1.019
+34,East Asia,Cerro-Mid,98.147,0.184635,2.1119,1.019
+34,Africa,Cerro-Mid,95.68,0.079853,1.2371,1.019
+34,North America,Cerro-Mid,94.845,0.077969,1.5017,1.019
+34,South Asia,Dune-Low,80.708,0.331325,3.55,1.0959
+34,Latin America,Dune-Low,77.288,0.11081,2.6966,1.0959
+34,Europe,Dune-Low,83.256,0.168201,1.79,1.0959
+34,East Asia,Dune-Low,79.24,0.142869,2.1119,1.0959
+34,Africa,Dune-Low,79.694,0.096365,1.2371,1.0959
+35,South Asia,Atlas-Low,92.725,0.373526,3.3535,0.9884
+35,Latin America,Atlas-Low,90.627,0.202378,2.7615,0.9884
+35,Europe,Atlas-Low,97.226,0.214487,1.9502,0.9884
+35,East Asia,Atlas-Low,89.413,0.158788,2.2677,0.9884
+35,Africa,Atlas-Low,93.285,0.122895,1.2358,0.9884
+35,North America,Atlas-Low,95.498,0.119422,1.4027,0.9884
+35,South Asia,Atlas-Mid,106.512,0.31895,3.3535,0.9884
+35,Latin America,Atlas-Mid,101.289,0.16934,2.7615,0.9884
+35,Europe,Atlas-Mid,105.619,0.155561,1.9502,0.9884
+35,East Asia,Atlas-Mid,105.271,0.242878,2.2677,0.9884
+35,Africa,Atlas-Mid,109.221,0.158361,1.2358,0.9884
+35,North America,Atlas-Mid,105.908,0.153911,1.4027,0.9884
+35,South Asia,Atlas-High,122.417,0.326775,3.3535,0.9884
+35,Latin America,Atlas-High,125.611,0.349326,2.7615,0.9884
+35,Europe,Atlas-High,124.456,0.246471,1.9502,0.9884
+35,East Asia,Atlas-High,120.414,0.185278,2.2677,0.9884
+35,Africa,Atlas-High,121.931,0.102616,1.2358,0.9884
+35,North America,Atlas-High,123.941,0.169095,1.4027,0.9884
+35,South Asia,Boreal-Mid,107.567,0.170187,3.3535,0.9584
+35,Latin America,Boreal-Mid,107.704,0.217682,2.7615,0.9584
+35,Europe,Boreal-Mid,108.756,0.130013,1.9502,0.9584
+35,East Asia,Boreal-Mid,107.144,0.127649,2.2677,0.9584
+35,Africa,Boreal-Mid,107.053,0.063377,1.2358,0.9584
+35,North America,Boreal-Mid,112.613,0.168453,1.4027,0.9584
+35,South Asia,Boreal-High,127.051,0.303548,3.3535,0.9584
+35,Latin America,Boreal-High,123.801,0.170253,2.7615,0.9584
+35,Europe,Boreal-High,126.74,0.191299,1.9502,0.9584
+35,East Asia,Boreal-High,127.203,0.177066,2.2677,0.9584
+35,Africa,Boreal-High,127.643,0.108078,1.2358,0.9584
+35,North America,Boreal-High,128.468,0.131765,1.4027,0.9584
+35,South Asia,Cerro-Low,82.809,0.274085,3.3535,1.0192
+35,Latin America,Cerro-Low,89.082,0.27231,2.7615,1.0192
+35,East Asia,Cerro-Low,84.001,0.191904,2.2677,1.0192
+35,Africa,Cerro-Low,81.3,0.072716,1.2358,1.0192
+35,North America,Cerro-Low,87.138,0.126836,1.4027,1.0192
+35,South Asia,Cerro-Mid,96.607,0.229643,3.3535,1.0192
+35,Latin America,Cerro-Mid,103.904,0.402918,2.7615,1.0192
+35,Europe,Cerro-Mid,95.853,0.166449,1.9502,1.0192
+35,East Asia,Cerro-Mid,96.911,0.181127,2.2677,1.0192
+35,Africa,Cerro-Mid,94.582,0.072675,1.2358,1.0192
+35,North America,Cerro-Mid,94.876,0.084658,1.4027,1.0192
+35,South Asia,Dune-Low,80.268,0.309309,3.3535,1.0933
+35,Latin America,Dune-Low,77.792,0.139747,2.7615,1.0933
+35,Europe,Dune-Low,82.763,0.175171,1.9502,1.0933
+35,East Asia,Dune-Low,80.821,0.192826,2.2677,1.0933
+35,Africa,Dune-Low,80.663,0.108327,1.2358,1.0933
+36,South Asia,Atlas-Low,98.77,0.483144,3.5853,0.959
+36,Latin America,Atlas-Low,95.036,0.254203,3.013,0.959
+36,Europe,Atlas-Low,102.442,0.244271,2.0165,0.959
+36,East Asia,Atlas-Low,93.186,0.148629,2.1694,0.959
+36,Africa,Atlas-Low,96.527,0.092302,1.1408,0.959
+36,North America,Atlas-Low,99.482,0.126289,1.3516,0.959
+36,South Asia,Atlas-Mid,108.884,0.27301,3.5853,0.959
+36,Latin America,Atlas-Mid,104.427,0.163424,3.013,0.959
+36,Europe,Atlas-Mid,111.515,0.188861,2.0165,0.959
+36,East Asia,Atlas-Mid,108.161,0.224816,2.1694,0.959
+36,Africa,Atlas-Mid,112.351,0.153491,1.1408,0.959
+36,North America,Atlas-Mid,110.163,0.144965,1.3516,0.959
+36,South Asia,Atlas-High,125.483,0.357123,3.5853,0.959
+36,Latin America,Atlas-High,127.674,0.351724,3.013,0.959
+36,Europe,Atlas-High,131.454,0.261154,2.0165,0.959
+36,East Asia,Atlas-High,124.919,0.202601,2.1694,0.959
+36,Africa,Atlas-High,126.91,0.107172,1.1408,0.959
+36,North America,Atlas-High,128.744,0.163322,1.3516,0.959
+36,South Asia,Boreal-Mid,113.635,0.217748,3.5853,1.0172
+36,Latin America,Boreal-Mid,113.645,0.244435,3.013,1.0172
+36,Europe,Boreal-Mid,114.421,0.169261,2.0165,1.0172
+36,East Asia,Boreal-Mid,112.219,0.13222,2.1694,1.0172
+36,Africa,Boreal-Mid,112.037,0.069793,1.1408,1.0172
+36,North America,Boreal-Mid,115.024,0.130075,1.3516,1.0172
+36,South Asia,Boreal-High,133.411,0.331489,3.5853,1.0172
+36,Latin America,Boreal-High,130.202,0.183442,3.013,1.0172
+36,Europe,Boreal-High,130.409,0.137875,2.0165,1.0172
+36,East Asia,Boreal-High,131.674,0.150046,2.1694,1.0172
+36,Africa,Boreal-High,131.671,0.079551,1.1408,1.0172
+36,North America,Boreal-High,131.967,0.103895,1.3516,1.0172
+36,South Asia,Cerro-Low,84.709,0.254809,3.5853,1.0758
+36,Latin America,Cerro-Low,88.184,0.247532,3.013,1.0758
+36,East Asia,Cerro-Low,85.49,0.149352,2.1694,1.0758
+36,Africa,Cerro-Low,84.308,0.066316,1.1408,1.0758
+36,North America,Cerro-Low,90.85,0.147082,1.3516,1.0758
+36,South Asia,Cerro-Mid,99.991,0.249614,3.5853,1.0758
+36,Latin America,Cerro-Mid,104.591,0.365962,3.013,1.0758
+36,Europe,Cerro-Mid,96.665,0.105552,2.0165,1.0758
+36,East Asia,Cerro-Mid,100.247,0.165384,2.1694,1.0758
+36,Africa,Cerro-Mid,98.034,0.069378,1.1408,1.0758
+36,North America,Cerro-Mid,99.623,0.089948,1.3516,1.0758
+36,South Asia,Dune-Low,76.943,0.275977,3.5853,1.0445
+36,Latin America,Dune-Low,76.798,0.203611,3.013,1.0445
+36,Europe,Dune-Low,80.686,0.192656,2.0165,1.0445
+36,East Asia,Dune-Low,80.287,0.220495,2.1694,1.0445
+36,Africa,Dune-Low,78.766,0.089902,1.1408,1.0445
+37,South Asia,Atlas-Low,94.091,0.431811,3.8193,1.0173
+37,Latin America,Atlas-Low,90.001,0.199231,2.9759,1.0173
+37,Europe,Atlas-Low,100.035,0.214277,1.8737,1.0173
+37,East Asia,Atlas-Low,91.101,0.170252,2.0334,1.0173
+37,Africa,Atlas-Low,97.538,0.124033,1.1539,1.0173
+37,North America,Atlas-Low,96.0,0.13885,1.4658,1.0173
+37,South Asia,Atlas-Mid,108.117,0.375816,3.8193,1.0173
+37,Latin America,Atlas-Mid,102.313,0.184739,2.9759,1.0173
+37,Europe,Atlas-Mid,109.438,0.188228,1.8737,1.0173
+37,East Asia,Atlas-Mid,106.042,0.171546,2.0334,1.0173
+37,Africa,Atlas-Mid,112.167,0.161081,1.1539,1.0173
+37,North America,Atlas-Mid,106.341,0.129806,1.4658,1.0173
+37,South Asia,Atlas-High,123.103,0.310649,3.8193,1.0173
+37,Latin America,Atlas-High,126.713,0.311764,2.9759,1.0173
+37,Europe,Atlas-High,129.214,0.213574,1.8737,1.0173
+37,East Asia,Atlas-High,123.191,0.181219,2.0334,1.0173
+37,Africa,Atlas-High,126.02,0.09877,1.1539,1.0173
+37,North America,Atlas-High,125.247,0.170473,1.4658,1.0173
+37,South Asia,Boreal-Mid,111.219,0.256541,3.8193,0.9938
+37,Latin America,Boreal-Mid,109.281,0.212875,2.9759,0.9938
+37,Europe,Boreal-Mid,112.594,0.172389,1.8737,0.9938
+37,East Asia,Boreal-Mid,110.148,0.116272,2.0334,0.9938
+37,Africa,Boreal-Mid,108.324,0.049564,1.1539,0.9938
+37,North America,Boreal-Mid,114.834,0.167433,1.4658,0.9938
+37,South Asia,Boreal-High,131.533,0.349573,3.8193,0.9938
+37,Latin America,Boreal-High,126.138,0.141141,2.9759,0.9938
+37,Europe,Boreal-High,128.634,0.138315,1.8737,0.9938
+37,East Asia,Boreal-High,129.728,0.160854,2.0334,0.9938
+37,Africa,Boreal-High,129.757,0.094667,1.1539,0.9938
+37,North America,Boreal-High,131.534,0.145951,1.4658,0.9938
+37,South Asia,Cerro-Low,82.401,0.308282,3.8193,1.0178
+37,Latin America,Cerro-Low,90.046,0.324004,2.9759,1.0178
+37,East Asia,Cerro-Low,83.013,0.168712,2.0334,1.0178
+37,Africa,Cerro-Low,80.451,0.050044,1.1539,1.0178
+37,North America,Cerro-Low,88.107,0.155386,1.4658,1.0178
+37,South Asia,Cerro-Mid,95.251,0.224335,3.8193,1.0178
+37,Latin America,Cerro-Mid,104.557,0.443398,2.9759,1.0178
+37,Europe,Cerro-Mid,92.97,0.104787,1.8737,1.0178
+37,East Asia,Cerro-Mid,96.9,0.14561,2.0334,1.0178
+37,Africa,Cerro-Mid,95.642,0.094372,1.1539,1.0178
+37,North America,Cerro-Mid,96.049,0.099386,1.4658,1.0178
+37,South Asia,Dune-Low,78.643,0.336785,3.8193,1.0645
+37,Latin America,Dune-Low,77.186,0.182121,2.9759,1.0645
+37,Europe,Dune-Low,81.201,0.171748,1.8737,1.0645
+37,East Asia,Dune-Low,80.601,0.220215,2.0334,1.0645
+37,Africa,Dune-Low,79.177,0.095765,1.1539,1.0645
+38,South Asia,Atlas-Low,92.866,0.362551,3.621,0.9704
+38,Latin America,Atlas-Low,89.503,0.207264,2.7505,0.9704
+38,Europe,Atlas-Low,96.664,0.190131,1.8258,0.9704
+38,East Asia,Atlas-Low,90.618,0.226967,2.1542,0.9704
+38,Africa,Atlas-Low,96.999,0.15934,1.2618,0.9704
+38,North America,Atlas-Low,92.404,0.16183,1.5317,0.9704
+38,South Asia,Atlas-Mid,105.426,0.308971,3.621,0.9704
+38,Latin America,Atlas-Mid,100.58,0.202662,2.7505,0.9704
+38,Europe,Atlas-Mid,108.363,0.231053,1.8258,0.9704
+38,East Asia,Atlas-Mid,102.437,0.144805,2.1542,0.9704
+38,Africa,Atlas-Mid,109.673,0.160579,1.2618,0.9704
+38,North America,Atlas-Mid,101.721,0.104776,1.5317,0.9704
+38,South Asia,Atlas-High,124.953,0.487747,3.621,0.9704
+38,Latin America,Atlas-High,124.356,0.301923,2.7505,0.9704
+38,Europe,Atlas-High,122.974,0.202313,1.8258,0.9704
+38,East Asia,Atlas-High,121.099,0.225227,2.1542,0.9704
+38,Africa,Atlas-High,123.978,0.122068,1.2618,0.9704
+38,North America,Atlas-High,120.399,0.179564,1.5317,0.9704
+38,South Asia,Boreal-Mid,107.493,0.226202,3.621,0.9429
+38,Latin America,Boreal-Mid,106.628,0.220891,2.7505,0.9429
+38,Europe,Boreal-Mid,108.176,0.132781,1.8258,0.9429
+38,East Asia,Boreal-Mid,108.314,0.143626,2.1542,0.9429
+38,Africa,Boreal-Mid,105.233,0.051547,1.2618,0.9429
+38,North America,Boreal-Mid,112.868,0.16788,1.5317,0.9429
+38,South Asia,Boreal-High,123.936,0.286177,3.621,0.9429
+38,Latin America,Boreal-High,122.312,0.131716,2.7505,0.9429
+38,Europe,Boreal-High,126.876,0.184714,1.8258,0.9429
+38,East Asia,Boreal-High,125.324,0.167086,2.1542,0.9429
+38,Africa,Boreal-High,125.009,0.0979,1.2618,0.9429
+38,North America,Boreal-High,128.634,0.170166,1.5317,0.9429
+38,South Asia,Cerro-Low,80.989,0.235213,3.621,1.002
+38,Latin America,Cerro-Low,87.859,0.283281,2.7505,1.002
+38,East Asia,Cerro-Low,82.436,0.194808,2.1542,1.002
+38,Africa,Cerro-Low,79.278,0.051179,1.2618,1.002
+38,North America,Cerro-Low,88.95,0.201276,1.5317,1.002
+38,South Asia,Cerro-Mid,95.056,0.245056,3.621,1.002
+38,Latin America,Cerro-Mid,101.865,0.395044,2.7505,1.002
+38,Europe,Cerro-Mid,92.197,0.114386,1.8258,1.002
+38,East Asia,Cerro-Mid,95.916,0.148811,2.1542,1.002
+38,Africa,Cerro-Mid,94.452,0.096267,1.2618,1.002
+38,North America,Cerro-Mid,96.285,0.101511,1.5317,1.002
+38,South Asia,Dune-Low,81.991,0.317452,3.621,1.1217
+38,Latin America,Dune-Low,79.196,0.140891,2.7505,1.1217
+38,Europe,Dune-Low,84.705,0.181241,1.8258,1.1217
+38,East Asia,Dune-Low,81.37,0.195388,2.1542,1.1217
+38,Africa,Dune-Low,81.053,0.0958,1.2618,1.1217
+39,South Asia,Atlas-Low,96.194,0.340371,3.4206,1.0513
+39,Latin America,Atlas-Low,93.977,0.263995,2.8168,1.0513
+39,Europe,Atlas-Low,99.995,0.227108,1.9892,1.0513
+39,East Asia,Atlas-Low,93.884,0.221641,2.313,1.0513
+39,Africa,Atlas-Low,98.692,0.104646,1.2605,1.0513
+39,North America,Atlas-Low,94.918,0.111602,1.4308,1.0513
+39,South Asia,Atlas-Mid,110.185,0.315529,3.4206,1.0513
+39,Latin America,Atlas-Mid,105.817,0.207457,2.8168,1.0513
+39,Europe,Atlas-Mid,108.368,0.125953,1.9892,1.0513
+39,East Asia,Atlas-Mid,107.32,0.15316,2.313,1.0513
+39,Africa,Atlas-Mid,114.102,0.151495,1.2605,1.0513
+39,North America,Atlas-Mid,105.765,0.104057,1.4308,1.0513
+39,South Asia,Atlas-High,130.469,0.405097,3.4206,1.0513
+39,Latin America,Atlas-High,127.198,0.227511,2.8168,1.0513
+39,Europe,Atlas-High,130.545,0.255279,1.9892,1.0513
+39,East Asia,Atlas-High,129.113,0.267554,2.313,1.0513
+39,Africa,Atlas-High,131.968,0.152961,1.2605,1.0513
+39,North America,Atlas-High,125.667,0.156352,1.4308,1.0513
+39,South Asia,Boreal-Mid,107.86,0.223022,3.4206,1.0624
+39,Latin America,Boreal-Mid,108.756,0.263082,2.8168,1.0624
+39,Europe,Boreal-Mid,108.583,0.138398,1.9892,1.0624
+39,East Asia,Boreal-Mid,107.666,0.134213,2.313,1.0624
+39,Africa,Boreal-Mid,106.653,0.066208,1.2605,1.0624
+39,North America,Boreal-Mid,112.35,0.158484,1.4308,1.0624
+39,South Asia,Boreal-High,126.526,0.239042,3.4206,1.0624
+39,Latin America,Boreal-High,127.427,0.168929,2.8168,1.0624
+39,Europe,Boreal-High,127.026,0.158068,1.9892,1.0624
+39,East Asia,Boreal-High,126.229,0.156714,2.313,1.0624
+39,Africa,Boreal-High,126.434,0.100847,1.2605,1.0624
+39,North America,Boreal-High,131.114,0.155211,1.4308,1.0624
+39,South Asia,Cerro-Low,81.183,0.207881,3.4206,1.0095
+39,Latin America,Cerro-Low,86.802,0.299764,2.8168,1.0095
+39,East Asia,Cerro-Low,82.919,0.194084,2.313,1.0095
+39,Africa,Cerro-Low,79.809,0.048417,1.2605,1.0095
+39,North America,Cerro-Low,90.516,0.162517,1.4308,1.0095
+39,South Asia,Cerro-Mid,95.739,0.262772,3.4206,1.0095
+39,Latin America,Cerro-Mid,99.671,0.328534,2.8168,1.0095
+39,Europe,Cerro-Mid,96.27,0.187372,1.9892,1.0095
+39,East Asia,Cerro-Mid,98.051,0.194347,2.313,1.0095
+39,Africa,Cerro-Mid,94.423,0.089836,1.2605,1.0095
+39,North America,Cerro-Mid,98.296,0.141993,1.4308,1.0095
+39,South Asia,Dune-Low,85.896,0.332314,3.4206,1.1142
+39,Latin America,Dune-Low,82.13,0.154919,2.8168,1.1142
+39,Europe,Dune-Low,87.799,0.201502,1.9892,1.1142
+39,East Asia,Dune-Low,86.112,0.24042,2.313,1.1142
+39,Africa,Dune-Low,85.497,0.099766,1.2605,1.1142
+40,South Asia,Atlas-Low,97.718,0.316225,3.657,1.118
+40,Latin America,Atlas-Low,97.485,0.289646,3.0733,1.118
+40,Europe,Atlas-Low,101.666,0.210023,2.0568,1.118
+40,East Asia,Atlas-Low,94.769,0.132273,2.2128,1.118
+40,Africa,Atlas-Low,98.425,0.092772,1.1636,1.118
+40,North America,Atlas-Low,98.23,0.113926,1.3786,1.118
+40,South Asia,Atlas-Mid,112.099,0.300099,3.657,1.118
+40,Latin America,Atlas-Mid,109.653,0.193146,3.0733,1.118
+40,Europe,Atlas-Mid,110.581,0.113077,2.0568,1.118
+40,East Asia,Atlas-Mid,111.143,0.164349,2.2128,1.118
+40,Africa,Atlas-Mid,113.879,0.114439,1.1636,1.118
+40,North America,Atlas-Mid,111.104,0.109362,1.3786,1.118
+40,South Asia,Atlas-High,134.534,0.36386,3.657,1.118
+40,Latin America,Atlas-High,131.243,0.26355,3.0733,1.118
+40,Europe,Atlas-High,131.14,0.221005,2.0568,1.118
+40,East Asia,Atlas-High,132.489,0.224495,2.2128,1.118
+40,Africa,Atlas-High,134.725,0.103794,1.1636,1.118
+40,North America,Atlas-High,130.264,0.121497,1.3786,1.118
+40,South Asia,Boreal-Mid,111.187,0.243643,3.657,1.0133
+40,Latin America,Boreal-Mid,114.019,0.282936,3.0733,1.0133
+40,Europe,Boreal-Mid,114.385,0.162072,2.0568,1.0133
+40,East Asia,Boreal-Mid,110.981,0.121645,2.2128,1.0133
+40,Africa,Boreal-Mid,109.8,0.055436,1.1636,1.0133
+40,North America,Boreal-Mid,115.901,0.15158,1.3786,1.0133
+40,South Asia,Boreal-High,129.267,0.224124,3.657,1.0133
+40,Latin America,Boreal-High,131.98,0.219855,3.0733,1.0133
+40,Europe,Boreal-High,133.667,0.224757,2.0568,1.0133
+40,East Asia,Boreal-High,129.73,0.144335,2.2128,1.0133
+40,Africa,Boreal-High,128.846,0.065972,1.1636,1.0133
+40,North America,Boreal-High,134.594,0.132749,1.3786,1.0133
+40,South Asia,Cerro-Low,82.599,0.229759,3.657,1.0159
+40,Latin America,Cerro-Low,87.068,0.339902,3.0733,1.0159
+40,East Asia,Cerro-Low,85.413,0.227042,2.2128,1.0159
+40,Africa,Cerro-Low,80.99,0.049159,1.1636,1.0159
+40,North America,Cerro-Low,91.19,0.181404,1.3786,1.0159
+40,South Asia,Cerro-Mid,98.51,0.38362,3.657,1.0159
+40,Latin America,Cerro-Mid,99.305,0.306378,3.0733,1.0159
+40,Europe,Cerro-Mid,96.438,0.183555,2.0568,1.0159
+40,East Asia,Cerro-Mid,99.232,0.197061,2.2128,1.0159
+40,Africa,Cerro-Mid,97.511,0.114321,1.1636,1.0159
+40,North America,Cerro-Mid,97.854,0.113582,1.3786,1.0159
+40,South Asia,Dune-Low,85.92,0.370907,3.657,1.1126
+40,Latin America,Dune-Low,81.222,0.148355,3.0733,1.1126
+40,Europe,Dune-Low,87.06,0.181877,2.0568,1.1126
+40,East Asia,Dune-Low,85.556,0.231198,2.2128,1.1126
+40,Africa,Dune-Low,86.557,0.1151,1.1636,1.1126

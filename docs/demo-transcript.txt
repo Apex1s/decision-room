@@ -1,0 +1,287 @@
+connected to Decision Room over ACP v1
+
+you › /brief
+
+commands: /brief /market /demand /backtest /equilibrium /recommend /conduct /frontier /rule /whatif /stress /redteam /memo /export /status /help
+Decision Room 0.2.0 ready. Offline mode: no API key needed. Ask *What should we charge next quarter?* or run /brief.
+
+◐ Data Steward: Loading the synthetic demo market [read]
+  • Generating the synthetic demo market (fictional producers, known ground truth)
+  ✓ done
+▌ Data Steward
+
+Market loaded: synthetic demo (fictional producers, known ground truth)
+4 producers, 3 grades, 6 regions (South Asia, Latin America, Europe, East Asia, Africa, North America), 40 quarters, 1,840 observations.
+
+| Producer | Volume Mt/q | Capacity | Utilisation | Market share |
+|---|---:|---:|---:|---:|
+| Atlas (us) | 3.45 | 4.02 | 85.7% | 25.5% |
+| Boreal | 2.03 | 2.01 | 100.9% | 15.0% |
+| Cerro | 2.33 | 2.56 | 90.9% | 17.2% |
+| Dune | 1.05 | 1.04 | 101.1% | 7.7% |
+
+- Inside shares peak at 73% of a region (outside option always present).
+- Boreal reports 100.9% of its stated capacity last quarter: measurement noise in the volumes or understated capacity. The model treats capacity as binding.
+- Dune reports 101.1% of its stated capacity last quarter: measurement noise in the volumes or understated capacity. The model treats capacity as binding.
+- 1840 of 1840 expected product-region-quarter rows present.
+
+
+◐ Demand Economist: Validating out of sample, then estimating demand on the best window [execute]
+  • Forecasting each of the last 8 quarters' equilibrium with plain logit (5 calibration windows)
+  • Forecasting each of the last 8 quarters' equilibrium with nested logit (5 calibration windows)
+  • Estimating demand on 40 quarters: plain and nested logit, OLS and 2SLS
+  • Estimating demand on 40 quarters: plain and nested logit, OLS and 2SLS
+  ✓ done
+▌ Demand Economist
+
+Out-of-sample test: for each quarter 33-40, fit on the window before it and forecast the whole equilibrium (prices and shares) without seeing that quarter's demand shock. Benchmark: "same as last quarter".
+
+Model choice: nested logit, because nesting is significant (sigma 0.48) and nested logit forecasts better out of sample (0.989 vs 1.072 share pts).
+
+| Calibration window | Share error (pts) vs naive | Price error ($/t) vs naive | Price direction right | Share direction right |
+|---|---:|---:|---:|---:|
+| 8q | 1.03 vs 1.15 (+10.6%) | 3.61 vs 2.64 (-36.9%) | 67.4% | 65.1% |
+| 12q | 1.01 vs 1.15 (+12.5%) | 2.69 vs 2.64 (-2.1%) | 70.6% | 64.6% |
+| 16q | 0.99 vs 1.15 (+13.8%) | 2.11 vs 2.64 (+20.1%) | 80.7% | 65.1% |
+| 20q (best) | 0.99 vs 1.15 (+14.0%) | 1.80 vs 2.64 (+31.7%) | 85.0% | 64.6% |
+| 24q | 0.99 vs 1.15 (+13.8%) | 1.60 vs 2.64 (+39.5%) | 85.3% | 65.1% |
+
+Full sample kept. No shorter window cuts the share error by more than 2%, and the full sample pins down price sensitivity far more tightly.
+
+Demand model: 2SLS nested logit by grade (Berry inversion, SEs clustered by product-region), quarters 1-40, 1,840 observations.
+
+- Price sensitivity 0.0209 per $/t (95% CI 0.01769 to 0.02411), first-stage F = 1354.9 (within-nest share F = 359.7).
+- Within-grade nesting sigma = 0.4834 (95% CI 0.4075 to 0.5592; truth 0.45): buyers switch mostly between producers of the same grade, so each grade has its own competitive pressure.
+- The plain logit alternative would put price sensitivity at 0.03501 (+68%): ignoring within-grade substitution misprices every grade.
+- Plain OLS would say 0.01054: -49.6% off. Sellers see demand shocks when they set prices, so OLS is biased; cost shifters and freight fix it.
+- Ground truth (synthetic data only): 0.022. Inside the 95% CI.
+- Own-price elasticity (average by producer): Atlas -3.45, Boreal -3.84, Cerro -2.86, Dune -2.69.
+- Demand shocks persist quarter to quarter (rho = 0.561); the forecast carries them forward.
+
+
+◐ Game Theorist: Solving the capacity-constrained Bertrand-Nash game [execute]
+  • Solving capacity-constrained Bertrand-Nash (inner markups, outer shadow prices)
+  ✓ done
+▌ Game Theorist
+
+Capacity-constrained Bertrand-Nash equilibrium (every producer best-responds):
+
+| Producer | Profit | Volume | Capacity shadow price |
+|---|---:|---:|---:|
+| Atlas | $130.54M | 3.466 Mt | 0 (slack) |
+| Boreal | $82.38M | 2.011 Mt | $7.32/t (at capacity) |
+| Cerro | $81.09M | 2.324 Mt | 0 (slack) |
+| Dune | $36.10M | 1.036 Mt | $2.57/t (at capacity) |
+
+KKT certificate: stationarity 1.9e-11 $/t, complementarity 2.7e-7, certified (13 outer / 193 inner iterations).
+
+|  | Status quo | Nash |
+|---|---:|---:|
+| Profit per quarter | $130.64M | $130.54M |
+| Volume | 3.454 Mt | 3.466 Mt |
+| Capacity used | 85.9% | 86.2% |
+| Market share | 25.51% | 25.59% |
+| Largest region (% of our volume) | 28.1% | 28.2% |
+
+
+◐ Strategist: Optimising our prices, anticipating rivals (Stackelberg) [execute]
+  • Optimising our prices while anticipating rivals' response (Stackelberg)
+  ✓ done
+▌ Strategist
+
+Recommended prices (we commit first; rivals re-optimise):
+
+| Region | Status quo $/t | Recommended $/t | Move | Volume Mt | Share of our volume |
+|---|---:|---:|---:|---:|---:|
+| South Asia | 115.8 | 133.2 | +17.4 | 0.707 | 28.2% |
+| Latin America | 113.5 | 131.0 | +17.5 | 0.516 | 20.6% |
+| Europe | 115.2 | 133.0 | +17.8 | 0.436 | 17.4% |
+| East Asia | 115.1 | 132.1 | +17.0 | 0.354 | 14.1% |
+| Africa | 116.3 | 132.7 | +16.5 | 0.244 | 9.7% |
+| North America | 113.4 | 131.3 | +17.9 | 0.249 | 9.9% |
+
+Uplift: $6.97M per quarter (+5.34%) versus keeping last quarter's prices.
+
+
+Recommended price by grade ($/t FOB):
+
+| Region | Low | Mid | High |
+|---|---:|---:|---:|
+| South Asia | 114.4 | 129.3 | 151.1 |
+| Latin America | 114.0 | 127.1 | 149.0 |
+| Europe | 119.2 | 128.4 | 149.0 |
+| East Asia | 111.5 | 127.5 | 148.4 |
+| Africa | 114.5 | 130.0 | 150.8 |
+| North America | 116.4 | 128.2 | 147.7 |
+
+|  | Status quo | Nash | Recommended |
+|---|---:|---:|---:|
+| Profit per quarter | $130.64M | $130.54M | $137.61M |
+| Volume | 3.454 Mt | 3.466 Mt | 2.506 Mt |
+| Capacity used | 85.9% | 86.2% | 62.3% |
+| Market share | 25.51% | 25.59% | 18.50% |
+| Largest region (% of our volume) | 28.1% | 28.2% | 28.2% |
+
+Rivals at capacity after our move: Boreal ($15.45/t), Cerro ($3.67/t), Dune ($10.43/t).
+
+
+◐ Strategist: Tracing profit vs concentration [execute]
+  • Tracing the profit vs concentration frontier (7 optimisations)
+  ✓ done
+▌ Strategist
+
+Concentration frontier. Unconstrained, our top region takes 28.2% of our volume. Tightening the cap:
+
+| Cap on any one region | Profit $M/q | Given up | Marginal cost $M per point |
+|---|---:|---:|---:|
+| 28.2% | 137.61 | 0.00% |  |
+| 26.6% | 137.53 | 0.06% | 0.053 |
+| 25.0% | 137.29 | 0.23% | 0.151 |
+| 23.4% | 136.88 | 0.53% | 0.256 |
+| 21.9% | 136.29 | 0.96% | 0.373 |
+| 20.3% | 135.26 | 1.71% | 0.647 |
+| 18.7% | 133.44 | 3.03% | 1.143 |
+
+Reading: the first points of diversification are almost free; at a 18.7% cap the rule costs 3.03% of profit. The marginal column is the price of one more point of safety.
+
+
+◐ Risk Analyst: Stress-testing the decision (200 simulated futures) [execute]
+  • Stress test: 200 joint draws of parameters, demand shocks and market sizes
+  • Monte Carlo 20/200 draws
+  • Monte Carlo 40/200 draws
+  • Monte Carlo 60/200 draws
+  • Monte Carlo 80/200 draws
+  • Monte Carlo 100/200 draws
+  • Monte Carlo 120/200 draws
+  • Monte Carlo 140/200 draws
+  • Monte Carlo 160/200 draws
+  • Monte Carlo 180/200 draws
+  • Monte Carlo 200/200 draws
+  ✓ done
+### Risk Analyst
+
+**Stress test:** 200 joint draws of demand parameters (from the estimator's covariance), next-quarter demand shocks and market sizes. Rivals re-optimise in every draw; recommendation and status quo face the same draw.
+
+- **Recommendation wins in 99.0% of futures.** Expected uplift $7.14M per quarter.
+- Uplift P10 / P50 / P90: +3.04 / +7.14 / +10.90 $M. Worst draw -0.55.
+- Profit if we act, P10 / P50 / P90: 127.8 / 139.1 / 150.7 $M.
+
+
+uplift $M  -0.5 ▁▁▁▂▃▄▄▅▇▄▇▇▆▅█▂▂▃▂▁▂▁ ▁ 16.2
+
+
+
+◐ Red Team: Attacking the recommendation before anyone sees it [think]
+  • Red team: running adversarial checks on data, model, solver and decision
+  ✓ done
+▌ Red Team
+
+Red team grade: B. Usable, with the caveat flagged below.
+
+| Check | Result | Evidence |
+|---|---|---|
+| Instrument strength | PASS | First-stage F for price = 1355, within-nest share F = 360 (rule of thumb: > 10). |
+| Endogeneity correction | PASS | OLS price sensitivity is -49.6% off the instrumented one; using OLS would have overstated optimal markups. |
+| Price sensitivity identified | PASS | alpha = 0.0209, 95% CI [0.0177, 0.0241] (SEs clustered by product-region). |
+| Substitution pattern | PASS | Nested logit by grade, sigma = 0.48 (95% CI from 0.41): buyers substitute mostly within a grade. Plain logit would put price sensitivity +68% off and misprice every grade. |
+| Parameter stability | PASS | alpha first half 0.0217 vs second half 0.0196 (10% apart). |
+| Out-of-sample skill | PASS | Window 20q: share MAE 0.99 pts vs naive 1.15 (+14.0% skill), direction right 65% of 350 moves. |
+| Pricing on the elastic side | PASS | Our own-price elasticities range -4.63 to -3.54 (a profit-maximiser never prices where /e/ < 1). |
+| Market conduct | PASS | Observed prices fit Bertrand competition best: stated vs implied costs differ by 1.2% under Bertrand, 145.3% under collusion, 52.9% under perfect competition (firms with spare capacity: Atlas, Cerro). |
+| Equilibrium certified (KKT) | PASS | Nash stationarity 1.9e-11 $/t, complementarity 2.7e-07; follower response stationarity 1.3e-11 $/t. |
+| Rivals' response is unique | PASS | 6 random restarts land within 8.6e-06 $/t. |
+| Inside the data | WARN | Recommended prices span 112-151 $/t; history spans 87-133. 33% of recommended prices extrapolate. |
+| Robust to uncertainty | PASS | Beats the status quo in 99.0% of 200 joint draws (parameters, demand shocks, market sizes); P10 uplift +3.04 $M. |
+| Ground truth recovered | PASS | True alpha 0.0220 is inside the 95% CI; true sigma 0.45 is inside [0.41, 0.56]. (Available only on synthetic data.) |
+
+What this model cannot tell you:
+- Substitution follows the nest structure (grades). Buyers who would switch region rather than grade, or long-term offtake contracts, are not represented.
+- The game is static, one quarter at a time. Long-term contracts, retaliation and reputation are not modelled.
+- Marginal costs and capacities are taken from the input files. The engine checks them against prices but cannot verify them.
+- The conduct test compares three textbook behaviours. Partial collusion or tacit regional splits sit between them and would need a richer test.
+
+
+◐ Memo Writer: Writing the board memo [edit]
+  permission: "Write the decision memo to <repo>\agent\decision-room-out" -> approved (--demo)
+  • Writing the decision memo (Markdown, HTML and charts)
+  wrote <repo>\agent\decision-room-out\memo.md
+  ✓ done
+▌ Memo Writer
+
+Decision memo written (red-team grade B): Reprice Atlas region by region: $7.0M per quarter versus keeping last quarter's prices (+5.3%), winning in 99.0% of simulated futures. Red-team grade B.
+
+Files in <repo>\agent\decision-room-out: memo.md, memo.html, prices.svg, frontier.svg, risk.svg, backtest.svg. Open memo.html for the board version with charts.
+
+---
+Bottom line. Reprice for +$6.97M per quarter (+5.34%) versus last quarter's prices. It beats the status quo in 99.0% of simulated futures (P10 uplift +3.04 $M). Red team grade B; caveat: Recommended prices span 112-151 $/t; history spans 87-133. 33% of recommended prices extrapolate.
+
+[end_turn]
+
+you › What if Dune adds 0.4 Mt of capacity next quarter?
+
+
+◐ Risk Analyst: Scenario: What if Dune adds 0.4 Mt of capacity next quarter? [execute]
+  • Re-solving the market under scenario: What if Dune adds 0.4 Mt of capacity next quarter?
+  ✓ done
+▌ Risk Analyst
+
+What if: Dune capacity +0.40 Mt/q
+
+- Our profit moves -6.34 $M per quarter once we react ($137.61M -> $131.27M).
+- If we keep today's recommended prices instead: $130.29M. Reacting is worth $0.98M per quarter.
+
+| Region | Our price move $/t |
+|---|---:|
+| South Asia | -5.3 |
+| Latin America | -4.6 |
+| Europe | -4.8 |
+| East Asia | -5.0 |
+| Africa | -4.8 |
+| North America | -2.2 |
+
+| Rival | Profit change $M | Capacity shadow price $/t |
+|---|---:|---:|
+| Boreal | -6.64 | 7.32 -> 7.12 |
+| Cerro | -9.28 | 0 -> 0 |
+| Dune | -2.65 | 2.57 -> 0 |
+
+---
+Bottom line. Under the scenario, reacting is worth $0.98M per quarter versus standing still.
+
+[end_turn]
+
+you › What does it cost us if no region may take more than 22% of our volume?
+
+
+◐ Strategist: Pricing the commercial-security rule [execute]
+  • Pricing the rule: optimum with and without it, then one point tighter
+  ✓ done
+▌ Strategist
+
+Rule priced: no region above 22% of our volume.
+- Profit without the rule: $137.61M per quarter; with it: $136.36M.
+- The rule costs $1.25M per quarter (0.91% of profit), about $5.00M a year.
+- One more point of tightening would cost a further $0.56M per quarter.
+
+---
+Bottom line. The tested rule costs $1.25M per quarter (0.91% of profit).
+
+[end_turn]
+
+you › /status
+
+
+◐ Chief of Staff: Reviewing what is computed [think]
+  ✓ done
+▌ Chief of Staff
+
+Session status (advising Atlas):
+- Market: done
+- Demand model: done
+- Recommendation: done
+- Stress test: done
+- Red team: grade B
+- Scenarios run: What if Dune adds 0.4 Mt of capacity next quarter?
+
+
+[end_turn]
